@@ -1,0 +1,149 @@
+- year: 2023  
+  
+  work:
+    - tags: []
+      description: "Migrated web application from a MVC framework to Next.js."
+
+  side_project:
+    - tags: []
+      description: "Threejs and shader experiment"
+    - tags: []
+      description: "Home server"
+      
+  study:
+
+
+- year: 2022
+
+  work:
+    - tags: []
+      description: "built fashion styling program with svelte and electron"
+    - tags: []
+      description: "Managed and designed the product through the entire product development cycle."
+    - tags: []
+      description: "Prototyped and developed a React Native app."
+      
+  side_project:
+    - tags: []
+      description: "busan exhibition"
+    - tags: []
+      description: "using arduino and thermal printer with local web show book recommendation"
+    - tags: [data_visualization]
+      description: "built website cookie trackers data visualization using d3.js"
+  study:
+    - tags: []
+      description: "built simple orm with C"
+    - tags: []
+      description: "built simple C parser with ruby"
+    - tags: []
+      description: "learned machine learning"
+      
+      
+- year: 2021
+
+  work:
+    - tags: []
+      description: "Participated in R&D process and designed the core logics for a restaurant search, recommendation and ranking system."
+    - tags: []
+      description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database. (Analyzed mapbox GLJS, built custom map tile with raw geo data) 맵박스세미나삽입"
+    - tags: []
+      description: "build draggable list view"
+      
+  side_project:
+    - tags: []
+      description: "build various creative web projects (2022 award nomitated)"
+    - tags: []
+      description: "build color normalize program with whatever algorithm"
+    - tags: []
+      description: "visualize divorce rate in korea with simple grid and css"
+    - tags: []
+      description: "built simple visual chat with socket.io"
+    - tags: []
+      description: "built website using wordpress (ffac)"
+    - tags: [web, interactive]
+      description: "build wall paper using twitter api"
+    - tags: []
+      description: "interview"
+      
+  study:
+    - tags: []
+      description: "glsl shader"
+
+
+- year: 2020
+
+  work:
+    - tags: [programming, automation, design]
+      description: "Developed a personalized gift generation system using user data and graphics software."
+    - tags: [programming, app_development]
+      description: "Built scrollable tab view library for react native."
+    - tags: []
+      description: "Participated in Major updates and maintanance react native app"
+      
+  side_project:
+    - tags: []
+      description: "NGO idaho day"
+    - tags: []
+      description: "poster, identity, books"
+    
+  study:
+    - tags: []
+      description: "learn ruby and react, lambda"
+    - tags: []
+      description: "Linear algibra, Studied data structure, computer graphics, algorithm"
+
+
+- year: 2019
+
+  work:
+    - tags: []
+      description: "app design and system"
+    - tags: []
+      description: "maintained RoR web framework"
+  side_project:
+    - tags: [web]
+      description: "Designed and Developed graduation archiving website with WordPress."
+    - tags: [web, data_visualization]
+      description: "build visualize youtube next video recommendation with p5.js and sqlite"
+    - tags: [design]
+      description: "Archived buildings occupied with various factors"
+  study:
+    - tags: [design, ui/ux]
+      description: "Studied user research and interview methods."
+    - tags: []
+      description: "react, ruby"
+
+
+- year: ~2018
+
+  work:
+    - tags: [design]
+      description: "Graphics design intern."
+    - tags: [web, network]
+      description: "built web project with simple ftp protocol"
+  side_project:
+    - tags: []
+      description: "participated flower typogrpahy exhibition"
+    - tags: [design]
+      description: "Did various editorial & graphic design works"
+    - tags: []
+      description: "made screen saver. (with japanese supermarket newspaper)"
+    - tags: []
+      description: "shot short film"
+    - tags: []
+      description: "simple orgol with infrared line tracking sensor and arduino"
+    - tags: []
+      description: "simple game with button"
+    - tags: []
+      description: "Did various media arts."
+  study:
+    - tags: [web, language]
+      description: "Studied JavaScript, CSS, git."
+    - tags: [design]
+      description: "Practiced motion graphics."
+    - tags: [web]
+      description: "Tried basic web coding around html and css"
+    - tags: []
+      description: "Learned visual coding with processing."
+    - tags: []
+      description: "Practiced typography."

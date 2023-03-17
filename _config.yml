@@ -33,6 +33,11 @@ github_username:  jekyll
 theme: minima
 plugins:
   - jekyll-feed
+# defaults:
+#   - scope:
+#       path: "assets/images"
+#     values:
+#       image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

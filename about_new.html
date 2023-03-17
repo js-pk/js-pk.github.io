@@ -1,0 +1,61 @@
+---
+title: about
+permalink: /about_new/
+---
+
+<link rel="stylesheet" href="/css/about.css">
+<script>
+  function filter(className) {
+    
+  }
+</script>
+
+
+<h3 id="overall">Overall</h3>
+<p>
+    Fast, Wide considering developer overall programming, design, and the product.
+    <br/>
+
+    small, fast, rapid development
+    make things work
+</p>
+
+{% for section in site.data.about %}
+<h3>{{section.year}}</h3>
+  <h4>work</h4>
+  <ul>
+    {% for item in section.work %}
+    <div>
+    {% for tag in item.tags%}
+    <button>{{tag}}</button>
+    {% endfor%}
+    </div>
+    <li>{{item.description}}</li>  
+    {% endfor %}
+  </ul>
+  
+  <h4>side_project</h4>
+  <ul>
+    {% for item in section.side_project %}
+    <div>
+    {% for tag in item.tags%}
+    <button>{{tag}}</button>
+    {% endfor%}
+    </div>
+    <li>{{item.description}}</li>  
+    {% endfor %}
+  </ul>
+  
+  <h4>study</h4>
+  <ul>
+    {% for item in section.study %}
+    <div>
+    {% for tag in item.tags%}
+    <button>{{tag}}</button>
+    {% endfor%}
+    </div>
+    <li>{{item.description}}</li>  
+    {% endfor %}
+  </ul>
+{% endfor %}
+
