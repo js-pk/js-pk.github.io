@@ -1,0 +1,87 @@
+    - tags: [web]
+description: "Tried basic web coding around html and css"
+   - tags: []
+description: "participated flower typogrpahy exhibition"
+      
+side_project:
+  - tags: []
+    description: "NGO idaho day"
+  - tags: []
+    description: "poster, identity, books"
+  
+ (Analyzed mapbox GLJS, built custom map tile with raw geo data)
+<h4>Attitude</h4>
+<ul>
+  <li>Ready to learn and explore new things</li>
+  <li>Keep wide view point among muliple fields</li>
+  <li>Try to understands the whole system</li>
+  Innovative, agile, and always up for a challenge
+  Prototyping pro: I combine design thinking with technical expertise to bring ideas to life in record time.
+</ul>
+
+<h4>Project Managing Skill</h4>
+<ul>
+  <li>rapid idea, insignt and prototyping, decision making</li>
+  <li>set a reasonable goal, deliver things at time</li>
+  <li></li>
+</ul>
+
+<h4>Tools</h4>
+<p>
+  JavaScript, Ruby, Python, C
+  React, React Native, Next.js, Svelte p5.js, three.js, jQuery, WordPress,Linux, SQL, git, AWS, Arduino
+</p>
+
+
+JS is now looking for a new adventure to learn and grow.
+
+Software Engineering
+- year: 2023  
+
+work:
+  
+
+side_project:
+  - tags: []
+    description: "Threejs and shader experiment"
+  - tags: []
+    description: "Home server"
+    
+study:
+
+    - tags: [programming, automation, design]
+description: "Developed a personalized gift generation system using user data and graphics software."
+ 
+ 
+      description: "using arduino and thermal printer with local web show book recommendation"
+      
+  Developer who make product possible overall programming, design.
+  Developer who integrates Design, Programming and Product for creative and rapid.
+  Design and Develop the product innovative solutions
+  Flexable and adventurous developer integrates various field
+  Combines diverse skill sets to solve complex problems
+  
+  integrate fields
+  Architecting products based on data and logics”
+  
+  
+  I do design, programming and developing products. My experiences are vary from rapid prototyping to designing business core logics,
+
+
+JS also creative
+
+integrates a range of disciplines to deliver exceptional results
+
+  
+prototyping and various experiment of the products.
+, overseeing the entire product development lifecycle and 
+A versatile developer with experience in both design and computer science, capable of overseeing the entire product development lifecycle. With a unique blend of sense of aesthetics and user
+
+
+
+{% comment %} 
+<p style="margin-left: 4em">
+  Hi there! I am a developer with design and computer science background. From rapid prototyping to designing business core logics, I am capable of overseeing the entire product development lifecycle. I build creative and progressive solutions by integrating a range of disciplines and now looking for a new adventure to learn and grow.
+</p>
+<br/>
+<br/> {% endcomment %}

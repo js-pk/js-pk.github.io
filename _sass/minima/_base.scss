@@ -26,16 +26,11 @@ body {
   flex-direction: column;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+ul, li, ol, dl, figure, %vertical-rhythm {
+  // margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: 4px;
 }
 
 
@@ -45,6 +40,7 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
+  margin-top: calc($spacing-unit / 2);
 }
 
 
@@ -76,7 +72,14 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: $spacing-unit;
+  // margin-left: $tab;
+  margin-bottom: calc($spacing-unit / 2);
+}
+
+li {
+  margin-bottom: calc($spacing-unit / 4);
+  list-style: none;
+  line-height: 1.2;
 }
 
 li {
@@ -86,13 +89,22 @@ li {
   }
 }
 
+.indented {
+  margin-left: $tab;
+}
+
 
 
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+  font-style: italic;
 }
 
 
@@ -100,26 +112,29 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+
 a {
-  color: $brand-color;
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+  color: inherit;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    // color: darken($brand-color, 15%);
+    color: inherit;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
-
-  .social-media-list &:hover {
+    cursor: pointer;
     text-decoration: none;
-
-    .username {
-      text-decoration: underline;
-    }
   }
+
+  // .social-media-list &:hover {
+  //   text-decoration: none;
+
+  //   .username {
+  //     text-decoration: underline;
+  //   }
+  // }
 }
 
 
@@ -129,7 +144,7 @@ a {
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  padding-left: calc($spacing-unit / 2);
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -184,8 +199,8 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    padding-right: calc($spacing-unit / 2);
+    padding-left: calc($spacing-unit / 2);
   }
 }
 
@@ -226,6 +241,7 @@ pre {
 /**
  * Tables
  */
+
 table {
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -239,7 +255,7 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: calc($spacing-unit / 3) calc($spacing-unit / 2);
   }
   th {
     background-color: lighten($grey-color-light, 3%);
@@ -249,4 +265,54 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+/**
+ * Selections
+ */
+
+::selection {
+  background: $yellow-color;
+}
+
+::moz-selection {
+  background: $yellow-color;
+}
+
+h1, h2 {
+  &::selection {
+    background: $red-color;
+  }
+  &::moz-selection {
+    background: $red-color;
+  }
+}
+
+h3, h4 {
+  &::selection {
+    background: $blue-color-light;
+  }
+  &::moz-selection {
+    background: $blue-color-light;
+  }
+}
+
+small, a {
+  &::selection {
+    background: transparent;
+  }
+  &::moz-selection {
+    background: transparent;
+  }
+  ::selection {
+    background: transparent;
+  }
+  ::moz-selection {
+    background: transparent;
+  }
+}
+
+
+.block {
+  margin-bottom: ($spacing-unit * 2);
 }

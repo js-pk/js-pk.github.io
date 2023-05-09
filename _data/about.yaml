@@ -1,120 +1,107 @@
-- year: 2023  
-  
-  work:
-    - tags: []
-      description: "Migrated web application from a MVC framework to Next.js."
 
-  side_project:
-    - tags: []
-      description: "Threejs and shader experiment"
-    - tags: []
-      description: "Home server"
-      
-  study:
-
-
-- year: 2022
+- year: 2022-2023
 
   work:
-    - tags: []
-      description: "built fashion styling program with svelte and electron"
-    - tags: []
-      description: "Managed and designed the product through the entire product development cycle."
-    - tags: []
+    - tags: [web_development]
+      description: "Migrated a web application from a MVC framework to Next.js."
+    - tags: [app_development]
+      description: "Built fashion styling app with svelte and electron. (In process)"
+    - tags: [automation, internal_tool, editorial_design]
+      description: "Developed a personalized gift generation system using user data and graphics software."
+    - tags: [app_development]
       description: "Prototyped and developed a React Native app."
-      
   side_project:
-    - tags: []
-      description: "busan exhibition"
-    - tags: []
-      description: "using arduino and thermal printer with local web show book recommendation"
-    - tags: [data_visualization]
-      description: "built website cookie trackers data visualization using d3.js"
+    - tags: [exhibition, media_arts]
+      description: "Participated in the exhibition &lt;The Post Modern Child&gt; At Museum of Contemporary Art Busan."
+      more:
+        - text: "Book recommendation with arduino, thermal printer and web."
+          image: "unrecommended_books1.jpg"
+          link: ""
+    - tags: [backend]
+      description: "Set and maintained personal server"
   study:
-    - tags: []
-      description: "built simple orm with C"
-    - tags: []
-      description: "built simple C parser with ruby"
-    - tags: []
-      description: "learned machine learning"
+    - tags: [programming_language]
+      description: "Studied C language."
+      more: 
+        links: 
+          - ["Simple orm with C", "link"]
+          - ["Simple C parser with Ruby", "link"]
+    - tags: [AI]
+      description: "Studied machine learning"
       
       
 - year: 2021
 
   work:
-    - tags: []
-      description: "Participated in R&D process and designed the core logics for a restaurant search, recommendation and ranking system."
-    - tags: []
-      description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database. (Analyzed mapbox GLJS, built custom map tile with raw geo data) 맵박스세미나삽입"
-    - tags: []
-      description: "build draggable list view"
+    - tags: [R&D, algorithm]
+      description: "Designed the core logics for a restaurant search, recommendation and ranking system."
+    - tags: [GIS_development]
+      description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database."
+    - tags: [contribution, GIS development]
+      description: "Speaker at the session &lt;Mapbox GLJS Architecture Analyse&gt;"
+      more:
+        - text: "presentation"
+          image: ""
+          link: ""
+    - tags: [app_development]
+      description: "Built draggable list view for react native"
       
   side_project:
-    - tags: []
-      description: "build various creative web projects (2022 award nomitated)"
-    - tags: []
-      description: "build color normalize program with whatever algorithm"
-    - tags: []
-      description: "visualize divorce rate in korea with simple grid and css"
-    - tags: []
-      description: "built simple visual chat with socket.io"
+    - tags: [HHHA, media_arts, creative_coding]
+      description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
+      more: 
+        - text: "Color normalize program with whatever algorithm"
+          image: ""
+          link: ""
+        - text: "Visualization of divorce rate in korea with simple grid and css"
+          image: ""
+          link: ""
+        - text: "Simple visual chat with socket.io"
+          image: ""
+          link: ""
+        - text: "Visualization of website cookie trackers using d3.js"
+          image: ""
+          link: ""
     - tags: []
       description: "built website using wordpress (ffac)"
+      link: "https://fffac.net"
     - tags: [web, interactive]
       description: "build wall paper using twitter api"
-    - tags: []
-      description: "interview"
+    - tags: [press]
+      description: "Featured in It's Nice That"
+      link: "https://www.itsnicethat.com/articles/hejhellohalloannyeong-digital-230522"
+    - tags: [press]
+      description: "Featured in Design Magazine CA #261 - Website Show"
+      link: "https://www.cabooks.co.kr/product/CA261"
+    - tags: [contribution]
+      description: "Speaker at the Q/A session &lt;T/SCHOOL 2022: Typography in the DIgital Era&gt;"
       
   study:
     - tags: []
-      description: "glsl shader"
+      description: "Studied computer graphics, algorithm, database, unix"
 
 
 - year: 2020
 
   work:
-    - tags: [programming, automation, design]
-      description: "Developed a personalized gift generation system using user data and graphics software."
     - tags: [programming, app_development]
       description: "Built scrollable tab view library for react native."
     - tags: []
       description: "Participated in Major updates and maintanance react native app"
-      
-  side_project:
     - tags: []
-      description: "NGO idaho day"
-    - tags: []
-      description: "poster, identity, books"
-    
-  study:
-    - tags: []
-      description: "learn ruby and react, lambda"
-    - tags: []
-      description: "Linear algibra, Studied data structure, computer graphics, algorithm"
-
-
-- year: 2019
-
-  work:
+      description: "Designed the major update of restaurant review app"
     - tags: []
       description: "app design and system"
     - tags: []
       description: "maintained RoR web framework"
-  side_project:
-    - tags: [web]
-      description: "Designed and Developed graduation archiving website with WordPress."
-    - tags: [web, data_visualization]
-      description: "build visualize youtube next video recommendation with p5.js and sqlite"
-    - tags: [design]
-      description: "Archived buildings occupied with various factors"
   study:
-    - tags: [design, ui/ux]
-      description: "Studied user research and interview methods."
-    - tags: []
-      description: "react, ruby"
+    - tags: [programming_language]
+      description: "learn ruby and react, lambda"
+    - tags: [computer_science]
+      description: "Studied Linear algibra, Studied data structure, "
 
 
-- year: ~2018
+- year: ~2019
 
   work:
     - tags: [design]
@@ -122,28 +109,36 @@
     - tags: [web, network]
       description: "built web project with simple ftp protocol"
   side_project:
-    - tags: []
-      description: "participated flower typogrpahy exhibition"
+    - tags: [web]
+      description: "Designed and Developed graduation archiving website with WordPress."
+    - tags: [web, data_visualization]
+      description: "build visualize youtube next video recommendation with p5.js and sqlite"
+    - tags: [design]
+      description: "Archived buildings occupied with various factors"
     - tags: [design]
       description: "Did various editorial & graphic design works"
-    - tags: []
-      description: "made screen saver. (with japanese supermarket newspaper)"
-    - tags: []
-      description: "shot short film"
-    - tags: []
-      description: "simple orgol with infrared line tracking sensor and arduino"
-    - tags: []
-      description: "simple game with button"
-    - tags: []
-      description: "Did various media arts."
+      more:
+        - text: "made screen saver. (with japanese supermarket newspaper)"
+          image: ""
+          link: ""
+        - text: "simple game with button"
+          image: ""
+          link: ""
+        - text: "shot short film"
+          image: ""
+          link: ""
+        - text: "simple orgol with infrared line tracking sensor and arduino"
+          image: ""
+          link: ""
+        - text: "motion graphics"
+          image: ""
+          link: ""
   study:
+    - tags: [design, ui/ux]
+      description: "Studied user research and interview methods."
+    - tags: []
+      description: "react, ruby"
     - tags: [web, language]
       description: "Studied JavaScript, CSS, git."
-    - tags: [design]
-      description: "Practiced motion graphics."
-    - tags: [web]
-      description: "Tried basic web coding around html and css"
-    - tags: []
+    - tags: [media_arts]
       description: "Learned visual coding with processing."
-    - tags: []
-      description: "Practiced typography."

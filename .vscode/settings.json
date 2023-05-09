@@ -1,0 +1,7 @@
+{
+    "emmet.includeLanguages": {
+        "jekyll": "html",
+        "scss": "css"
+    },
+    "liquid.engine": "jekyll"
+}

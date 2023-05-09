@@ -2,12 +2,25 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
-
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
+  height: 100%;
+  right: 0;
+
+
+  &::selection, ::selection {
+    background: transparent;
+  }
+  &::moz-selection, ::selection {
+    background: transparent;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  @include media-query($on-palm) {
+    position: absolute;
+  }
 }
 
 .site-title {
@@ -47,56 +60,57 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
+    position: static;
+    // position: absolute;
     top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
+    right: calc($spacing-unit / 2);
+    // background-color: $background-color;
+    // border: 1px solid $grey-color-light;
+    // border-radius: 5px;
+    // text-align: right;
 
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
+    // label[for="nav-trigger"] {
+    //   display: block;
+    //   float: right;
+    //   width: 36px;
+    //   height: 36px;
+    //   z-index: 2;
+    //   cursor: pointer;
+    // }
 
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
+    // .menu-icon {
+    //   display: block;
+    //   float: right;
+    //   width: 36px;
+    //   height: 26px;
+    //   line-height: 0;
+    //   padding-top: 10px;
+    //   text-align: center;
 
-      > svg {
-        fill: $grey-color-dark;
-      }
-    }
+    //   > svg {
+    //     fill: $grey-color-dark;
+    //   }
+    // }
 
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
+    // input ~ .trigger {
+    //   clear: both;
+    //   display: none;
+    // }
 
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
+    // input:checked ~ .trigger {
+    //   display: block;
+    //   padding-bottom: 5px;
+    // }
 
-    .page-link {
-      display: block;
-      padding: 5px 10px;
+    // .page-link {
+    //   display: block;
+    //   padding: 5px 10px;
 
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
+    //   &:not(:last-child) {
+    //     margin-right: 0;
+    //   }
+    //   margin-left: 20px;
+    // }
   }
 }
 
@@ -112,7 +126,7 @@
 
 .footer-heading {
   @include relative-font-size(1.125);
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .contact-list,
@@ -124,14 +138,14 @@
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
-  margin-left: -$spacing-unit / 2;
+  margin-left: calc($spacing-unit / -2);
   @extend %clearfix;
 }
 
 .footer-col {
   float: left;
-  margin-bottom: $spacing-unit / 2;
-  padding-left: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
+  padding-left: calc($spacing-unit / 2);
 }
 
 .footer-col-1 {

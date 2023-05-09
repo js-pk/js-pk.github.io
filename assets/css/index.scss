@@ -1,0 +1,82 @@
+---
+---
+
+@import "minima";
+
+
+h1 {
+  font-style: italic;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h4 {
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  line-height:1.43;
+  max-width: 560px;
+  
+}
+
+small.affiliation {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.buttons-container::selection {
+  background: transparent;
+}
+
+.buttons-container::moz-selection {
+  background: transparent;
+}
+
+button {
+  box-shadow: none;
+  border: none;
+  color: #333;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+button::moz-selection {
+  background: inherit;
+}
+
+button::selection {
+  background: inherit;
+}
+
+img.thumbnail {
+  height: 40px;
+  width: auto;
+  animation-timing-function: ease-in-out;
+  transition: 0.3s;
+}
+
+.more {
+  font-weight: 100;
+}
+
+canvas {
+  position: fixed;
+  z-index: -1;
+}
