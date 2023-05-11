@@ -1,0 +1,116 @@
+---
+title: JS Park - Front-End Developer & Designer
+menu_title: about
+layout: default
+robots: noindex
+---
+<!-- temporally no index while development -->
+
+<link rel="stylesheet" href="/assets/css/index.css">
+<script src="/lib/pathseg/pathseg.js"></script>
+<script src="/lib/poly-decomp/decomp.min.js"></script>
+<script src="/lib/matter-js/matter.js"></script> <!-- fps optimaztion added. check https://original.donga.com/inside/article/all/82/3589729/1 -->
+<script src="/assets/scripts/mainGraphic.js"></script>
+<script>
+
+</script>
+
+
+
+<canvas id="canvas"></canvas>
+<div class="block">
+  <h2 style="margin-bottom:0; line-height:22px;">JS Park</h2>
+  <h3 style="font-weight:normal;">Front-End Developer & Designer</h3>
+  <p class="indented" style="margin-top:30px;">
+    Hello! Please call me JS. I worked at a tech company as a developer & designer for 4 years. My work varies from modern front-end development to UI/UX, graphics and creative coding. I did rapid prototyping in both design and code, architected and maintained web applications, build graphics automation process and more. I also did various media art projects on the side, focusing on experimental web features and interactions. Originally based in Seoul, I am now looking to relocate for new adventure. Please check below for more information ↓ </div>
+<div class="block">
+<h4>Experience</h4>
+  <ul class="indented">
+    <li>
+      Member of Web Experiement Group<br/>
+      <small class="affiliation indented"><a href="https://www.instagram.com/hejhellohalloannyeong/">HHHA - hejhellohalloannyeong</a> (2021-PRESENT)</small>
+    </li>
+    <li>
+      Front-end Developer & UX Designer<br/>
+      <small class="affiliation indented"><a href="https://polle.com">Polle Inc.</a> (MAR 2020-APR 2023. Seoul)</small>
+    </li>
+    <li>
+      UX Designer Intern<br/>
+      <small class="affiliation indented"><a href="https://polle.com">Polle Inc.</a> (JAN 2020 - MAR 2020. Seoul)</small>
+    </li>
+    <li>
+      Graphic Designer Intern<br/>
+      <small class="affiliation indented">Zicto Inc. (JUN 2018 - AUG 2018. Seoul)</small>
+    </li>
+  </ul>
+</div>
+<div class="block">
+  <h4>Education</h4>
+  <ul class="indented">
+    <li>
+      Bachelor of Computer Science<br/>
+      <small class="affiliation indented">Korea National Open University (2021-2023. S.KOREA)</small>
+    </li>
+    <li>
+      Bachelor of Visual Communication Design<br/>
+      Minor in Media Interaction Design<br/>
+      <small class="affiliation indented">Ewha Womans University (2015-2020. Seoul)</small>
+    </li>
+    <li>
+      Exchange Student<br/>
+      <small class="affiliation indented">Hong Kong Baptist University (2017. Hong Kong)</small>
+    </li>
+  </ul>
+</div>
+
+{% for section in site.data.about %}
+<div class="block">
+  <h2>{{section.year}}</h2>
+    <h4>work</h4>
+    <ul class="indented">
+      {% for item in section.work %}
+      <div class="buttons-container">
+      {% for tag in item.tags %}
+      <button>{{tag}}</button>
+      {% endfor %}
+      </div>
+      <li class="description indented">{{item.description}}</li>
+      {% comment %} {% for image in item.more.images %}
+        <img src="{{image}}" />
+      {% endfor %} {% endcomment %}
+      {% endfor %}
+    </ul>
+    
+    <h4>side_project</h4>
+    <ul class="indented">
+      {% for item in section.side_project %}
+      <div class="buttons-container">
+      {% for tag in item.tags%}
+      <button>{{tag}}</button>
+      {% endfor%}
+      </div>
+      <li  class="description indented">{{item.description}}</li>
+      {% comment %} <a href="/assets/images/unrecommended_books1.jpg"><img class="thumbnail" src="/assets/images/unrecommended_books1.jpg" /></a> {% endcomment %}
+      {% assign more = item.more %}
+      {% for m in more %}
+        <a class="more" href="{{m.link}}">*{{m.text}}</a>
+        {% if m.image and m.image != "" %}
+          <a href="/assets/images/{{m.image}}"><img class="thumbnail" src="/assets/images/{{m.image}}" /></a>
+        {% endif %}
+      {% endfor %}
+      {% endfor %}
+    </ul>
+    
+    <h4>study</h4>
+    <ul class="indented">
+      {% for item in section.study %}
+      <div class="buttons-container">
+      {% for tag in item.tags%}
+      <button>{{tag}}</button>
+      {% endfor%}
+      </div>
+      <li  class="description">{{item.description}}</li>  
+      {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
