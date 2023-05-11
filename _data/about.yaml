@@ -2,25 +2,25 @@
 - year: 2022-2023
 
   work:
-    - tags: [web_development]
-      description: "Migrated a web application from a MVC framework to Next.js."
-    - tags: [app_development]
-      description: "Built fashion styling app with svelte and electron. (In process)"
-    - tags: [automation, internal_tool, editorial_design]
+    - tags: [web_development, front_end, back_end, JavaScript, Ruby, Node.js, Next.js]
+      description: "Migrated MAU 50k web application from a Rails based web application framework to Next.js."
+    - tags: [app_development, Svelte, Electron]
+      description: "Built fashion styling app with Svelte and Electron."
+    - tags: [automation, internal_tool, editorial_design, Ruby]
       description: "Developed a personalized gift generation system using user data and graphics software."
-    - tags: [app_development]
-      description: "Prototyped and developed a React Native app."
+    - tags: [app_development, JavaScript]
+      description: "Participated in prototyping and developing a major update with React Native."
   side_project:
-    - tags: [exhibition, media_arts]
+    - tags: [exhibition, media_art]
       description: "Participated in the exhibition &lt;The Post Modern Child&gt; At Museum of Contemporary Art Busan."
       more:
         - text: "Book recommendation with arduino, thermal printer and web."
           image: "unrecommended_books1.jpg"
           link: ""
-    - tags: [backend]
+    - tags: [back_end, linux]
       description: "Set and maintained personal server"
   study:
-    - tags: [programming_language]
+    - tags: [programming_language, C]
       description: "Studied C language."
       more: 
         links: 
@@ -35,18 +35,17 @@
   work:
     - tags: [R&D, algorithm]
       description: "Designed the core logics for a restaurant search, recommendation and ranking system."
-    - tags: [GIS_development]
+    - tags: [GIS_development, JavaScript, OpenStreetMap, Ruby]
       description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database."
-    - tags: [contribution, GIS development]
-      description: "Speaker at the session &lt;Mapbox GLJS Architecture Analyse&gt;"
-      more:
-        - text: "presentation"
-          image: ""
-          link: ""
     - tags: [app_development]
       description: "Built draggable list view for react native"
-      
   side_project:
+    - tags: [contribution, GIS development, Mapbox, JavaScript]
+      description: "Speaker at the session &lt;Mapbox GLJS Architecture Analyse&gt;"
+      more:
+      - text: "presentation"
+        image: ""
+        link: ""
     - tags: [HHHA, media_arts, creative_coding]
       description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
       more: 

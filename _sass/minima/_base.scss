@@ -100,6 +100,20 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  font-style: italic;
+}
+
+h3 {
+  font-size: 16px;
+  // line-height: 1.6;
+}
+
+h4 {
+  font-style: italic;
 }
 
 strong {
@@ -225,7 +239,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    // fill: #{$grey-color};
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -272,11 +286,21 @@ table {
  */
 
 ::selection {
-  background: $yellow-color;
+  background: transparent;
+}
+::moz-selection {
+  background: transparent;
 }
 
-::moz-selection {
-  background: $yellow-color;
+
+h5, h6, p, li {
+  &::selection {
+    background: $yellow-color;
+  }
+  
+  &::moz-selection {
+    background: $yellow-color;
+  }
 }
 
 h1, h2 {
@@ -312,7 +336,18 @@ small, a {
   }
 }
 
+strong {
+  &::selection {
+    background: $blue-color-light;
+  }
+  &::moz-selection {
+    background: $blue-color-light;
+  }
+}
+
 
 .block {
-  margin-bottom: ($spacing-unit * 2);
+  &:not(:last-child) {
+    margin-bottom: ($spacing-unit * 2);
+  }
 }

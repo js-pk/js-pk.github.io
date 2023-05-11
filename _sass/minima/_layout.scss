@@ -120,12 +120,21 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  // border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  a {
+    text-decoration: none;
+  }
+  ::selection {
+    background: transparent;
+  }
+  ::moz-selection {
+    background: transparent;
+  }
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  // @include relative-font-size(1.125);
   margin-bottom: calc($spacing-unit / 2);
 }
 
@@ -136,10 +145,14 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
-  color: $grey-color;
+  // @include relative-font-size(0.9375);
+  // color: $grey-color;
   margin-left: calc($spacing-unit / -2);
   @extend %clearfix;
+
+  ul, li {
+    margin-bottom: 0;
+  }
 }
 
 .footer-col {
@@ -149,13 +162,13 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
+  max-width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+  max-width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-  width:         calc(20% - (#{$spacing-unit} / 2));
+  // width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  // width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
@@ -179,8 +192,8 @@
 @include media-query($on-palm) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-    width:         calc(100% - (#{$spacing-unit} / 2));
+    width: 100%;
+    max-width: 100%;
   }
 }
 
