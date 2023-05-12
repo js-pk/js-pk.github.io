@@ -91,6 +91,9 @@ li {
 
 .indented {
   margin-left: $tab;
+  @include media-query($on-palm) {
+    margin-left: calc($tab / 2);
+  }
 }
 
 
@@ -230,6 +233,11 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: calc($spacing-unit / 2);
     padding-left: calc($spacing-unit / 2);
+  }
+
+  @include media-query($on-palm) {
+    padding-right: calc($spacing-unit / 3);
+    padding-left: calc($spacing-unit / 3);
   }
 }
 
