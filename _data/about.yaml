@@ -4,37 +4,32 @@
   work:
     - tags: [web_development, front_end, back_end, JavaScript, Ruby, Node.js, Next.js]
       description: "Migrated MAU 50k web application from a Rails based web application framework to Next.js."
-    - tags: [app_development, Svelte, Electron]
-      description: "Built fashion styling app with Svelte and Electron."
-    - tags: [automation, internal_tool, editorial_design, Ruby]
+    - tags: [automation, internal_tool, editorial_design, Ruby, SQL]
       description: "Developed a personalized gift generation system using user data and graphics software."
-    - tags: [app_development, JavaScript]
-      description: "Participated in prototyping and developing a major update with React Native."
+    - tags: [app_development, JavaScript, React_Native]
+      description: "Participated in prototyping and developing major updates with React Native."
   side_project:
-    - tags: [exhibition, media_art]
+    - tags: [exhibition, media_art, arduino, webGL, JavaScript]
       description: "Participated in the exhibition &lt;The Post Modern Child&gt; At Museum of Contemporary Art Busan."
       more:
         - text: "Book recommendation with arduino, thermal printer and web."
           image: "unrecommended_books1.jpg"
           link: ""
-    - tags: [back_end, linux]
-      description: "Set and maintained personal server"
-  study:
-    - tags: [programming_language, C]
-      description: "Studied C language."
-      more: 
-        links: 
-          - ["Simple orm with C", "link"]
-          - ["Simple C parser with Ruby", "link"]
-    - tags: [AI]
-      description: "Studied machine learning"
-      
+        - text: "Graphic motivated by the advertisement leaflet of toy for children."
+          image: "/about/hhha_yellow.png"
+          link: ""
+    - tags: [app_development, Svelte, Electron]
+      description: "Built fashion styling app with Svelte and Electron."
+    - tags: [web_development, JavaScript, CSS]
+      description: "Built portfolio website for architecture company."
+      link: "https://samusob.co.kr"
+
       
 - year: 2021
 
   work:
     - tags: [R&D, algorithm]
-      description: "Designed the core logics for a restaurant search, recommendation and ranking system."
+      description: "Participated in deesigning the core logics for the restaurant search, recommendation and ranking system."
     - tags: [GIS_development, JavaScript, OpenStreetMap, Ruby]
       description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database."
     - tags: [app_development]
@@ -44,8 +39,7 @@
       description: "Speaker at the session &lt;Mapbox GLJS Architecture Analyse&gt;"
       more:
       - text: "presentation"
-        image: ""
-        link: ""
+        link: ["/data/mapbox_gljs_architecture_ppt.pdf", "mapbox_gljs_architecture_script.pdf"]
     - tags: [HHHA, media_arts, creative_coding]
       description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
       more: 
@@ -61,24 +55,11 @@
         - text: "Visualization of website cookie trackers using d3.js"
           image: ""
           link: ""
-    - tags: []
-      description: "built website using wordpress (ffac)"
+    - tags: [web_development, wordpress]
+      description: "Built website about self-defence for women using wordpress."
       link: "https://fffac.net"
     - tags: [web, interactive]
-      description: "build wall paper using twitter api"
-    - tags: [press]
-      description: "Featured in It's Nice That"
-      link: "https://www.itsnicethat.com/articles/hejhellohalloannyeong-digital-230522"
-    - tags: [press]
-      description: "Featured in Design Magazine CA #261 - Website Show"
-      link: "https://www.cabooks.co.kr/product/CA261"
-    - tags: [contribution]
-      description: "Speaker at the Q/A session &lt;T/SCHOOL 2022: Typography in the DIgital Era&gt;"
-      
-  study:
-    - tags: []
-      description: "Studied computer graphics, algorithm, database, unix"
-
+      description: "Build wall paper using twitter api"
 
 - year: 2020
 
@@ -93,11 +74,7 @@
       description: "app design and system"
     - tags: []
       description: "maintained RoR web framework"
-  study:
-    - tags: [programming_language]
-      description: "learn ruby and react, lambda"
-    - tags: [computer_science]
-      description: "Studied Linear algibra, Studied data structure, "
+
 
 
 - year: ~2019
@@ -132,12 +109,4 @@
         - text: "motion graphics"
           image: ""
           link: ""
-  study:
-    - tags: [design, ui/ux]
-      description: "Studied user research and interview methods."
-    - tags: []
-      description: "react, ruby"
-    - tags: [web, language]
-      description: "Studied JavaScript, CSS, git."
-    - tags: [media_arts]
-      description: "Learned visual coding with processing."
+

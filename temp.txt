@@ -85,3 +85,33 @@ A versatile developer with experience in both design and computer science, capab
 </p>
 <br/>
 <br/> {% endcomment %}
+
+  study:
+    - tags: [programming_language, C]
+      description: "Studied C language."
+      more: 
+        links: 
+          - ["Simple orm with C", "link"]
+          - ["Simple C parser with Ruby", "link"]
+    - tags: [AI]
+      description: "Studied machine learning"
+      
+ study:
+    - tags: []
+      description: "Studied computer graphics, algorithm, database, unix"
+
+  study:
+    - tags: [design, ui/ux]
+      description: "Studied user research and interview methods."
+    - tags: []
+      description: "react, ruby"
+    - tags: [web, language]
+      description: "Studied JavaScript, CSS, git."
+    - tags: [media_arts]
+      description: "Learned visual coding with processing."
+
+    study:
+    - tags: [programming_language]
+      description: "learn ruby and react, lambda"
+    - tags: [computer_science]
+      description: "Studied Linear algibra, Studied data structure, "
