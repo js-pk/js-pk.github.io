@@ -2,111 +2,148 @@
 - year: 2022-2023
 
   work:
-    - tags: [web_development, front_end, back_end, JavaScript, Ruby, Node.js, Next.js]
-      description: "Migrated MAU 50k web application from a Rails based web application framework to Next.js."
-    - tags: [automation, internal_tool, editorial_design, Ruby, SQL]
-      description: "Developed a personalized gift generation system using user data and graphics software."
-    - tags: [app_development, JavaScript, React_Native]
-      description: "Participated in prototyping and developing major updates with React Native."
+    - major_tags: [code]
+      tags: [web_development, JavaScript, Ruby, Node.js, Next.js]
+      description: "Migrated MAU 50k web application to Next.js from a Rails based web application framework."
+    - major_tags: [code, design]
+      tags: [automation, internal_tool, editorial_design, Ruby, SQL]
+      description: "Created a personalized gift generation system by using user database and graphics software."
+      more:
+        - text: ""
+          images: ["/about/gift_generation_01.jpg", "/about/gift_generation_02.jpg", "/about/gift_generation_03.jpg", "/about/gift_generation_04.jpg", "/about/gift_generation_05.jpg", "/about/gift_generation_06.jpg",]
+    - major_tags: [code, design]
+      tags: [app_development, JavaScript, React_Native]
+      description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
+      more:
+        - text: ""
+          images: ["about/polle_app_01.jpg", "about/polle_app_02.jpg", "about/polle_app_03.jpg", "about/polle_app_04.jpg"]
+          image_orientation: "portrait"
   side_project:
-    - tags: [exhibition, media_art, arduino, webGL, JavaScript]
-      description: "Participated in the exhibition &lt;The Post Modern Child&gt; At Museum of Contemporary Art Busan."
+    - major_tags: [code, design]
+      tags: [media_art, arduino, webGL, JavaScript]
+      description: "Participated in the exhibition &lt;The Post Modern Child&gt; at the Museum of Contemporary Art Busan as a member of web experiment group HHHA."
       more:
         - text: "Book recommendation with arduino, thermal printer and web."
-          image: "unrecommended_books1.jpg"
+          images: ["about/books_unrecommended_01.jpg", "about/books_unrecommended_02.jpg", "about/books_unrecommended_03.jpg", "about/books_unrecommended_04.jpg", "about/books_unrecommended_05.jpg"]
           link: ""
         - text: "Graphic motivated by the advertisement leaflet of toy for children."
-          image: "/about/hhha_yellow.png"
+          images: ["/about/hhha_yellow.png"]
           link: ""
-    - tags: [app_development, Svelte, Electron]
-      description: "Built fashion styling app with Svelte and Electron."
-    - tags: [web_development, JavaScript, CSS]
-      description: "Built portfolio website for architecture company."
-      link: "https://samusob.co.kr"
+    - major_tags: [code, design]
+      tags: [app_development, Svelte, Electron]
+      description: "Developed a fashion styling application for cartoonist with Svelte and Electron."
+    - major_tags: [code]
+      tags: [web_development, JavaScript, CSS]
+      description: "Developed a portfolio website for an architecture company with Cargo web builder."
+      more:
+        - text: ""
+          images: ["/about/biroso_samuso_01.jpg", "/about/biroso_samuso_02.jpg"]
+          link: "https://samusob.co.kr"
 
       
 - year: 2021
 
   work:
-    - tags: [R&D, algorithm]
-      description: "Participated in deesigning the core logics for the restaurant search, recommendation and ranking system."
-    - tags: [GIS_development, JavaScript, OpenStreetMap, Ruby]
-      description: "Built custom map tiles using OpenStreetMap and S.Korea government geo-database."
-    - tags: [app_development]
-      description: "Built draggable list view for react native"
+    - major_tags: [code]
+      tags: [R&D, algorithm]
+      description: "Participated in designing the core logic for a restaurant search, recommendation, and ranking system."
+    - major_tags: [code]
+      tags: [GIS_development, JavaScript, OpenStreetMap, Ruby]
+      description: "Developed custom vector map tile for the MapboxGLJS renderer with raw OpenStreetMap, S.Korea government geo-database."
+      more:
+        - text: ""
+          images: ["/about/map_01.jpg", "/about/map_02.jpg", "/about/map_03.jpg", "/about/map_04.jpg", "/about/map_05.jpg", "/about/map_06.jpg", "/about/map_07.jpg", "/about/map_08.jpg", "/about/map_09.jpg"]
+    - major_tags: [code]
+      tags: [app_development, JavaScript, React_Native, UI_library]
+      description: "Built draggable list view with React Native."
+      more:
+        - text: ""
+          images: ["/about/draggable_list.gif"]
+          image_orientation: "portrait"
   side_project:
-    - tags: [contribution, GIS development, Mapbox, JavaScript]
-      description: "Speaker at the session &lt;Mapbox GLJS Architecture Analyse&gt;"
+    - major_tags: [code]
+      tags: [contribution, GIS development, Mapbox, JavaScript]
+      description: "Be a speaker at the Open Source Architecture Analyse Semina, presenting &lt;Mapbox GL JS Architecture Analyse&gt;"
       more:
       - text: "presentation"
-        link: ["/data/mapbox_gljs_architecture_ppt.pdf", "mapbox_gljs_architecture_script.pdf"]
-    - tags: [HHHA, media_arts, creative_coding]
+        link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
+        images: ["/about/mapbox_gljs_architecture_01.jpg", "/about/mapbox_gljs_architecture_02.jpg", "/about/mapbox_gljs_architecture_03.jpg"]
+      - text: "script"
+        link: "assets/data/mapbox_gljs_architecture_script.pdf"
+    - major_tags: [code, design]
+      tags: [HHHA, media_arts, creative_coding]
       description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
       more: 
-        - text: "Color normalize program with whatever algorithm"
-          image: ""
+        - text: "Main color recognition program using the nearest neighbor algorithm."
+          images: ["/about/hhha_organize_01.jpg", "/about/hhha_organize_02.jpg"]
           link: ""
-        - text: "Visualization of divorce rate in korea with simple grid and css"
-          image: ""
+        - text: "Visualization of the divorce rate in korea with CSS grid and recursive function."
+          images: ["/about/hhha_divorce_01.jpg", "/about/hhha_divorce_02.jpg", "/about/hhha_divorce_03.jpg", "/about/hhha_divorce_04.jpg"]
           link: ""
-        - text: "Simple visual chat with socket.io"
-          image: ""
+        - text: "Simple visual chat application using socket.io."
+          images: ["/about/hhha_meeting.jpg"]
           link: ""
-        - text: "Visualization of website cookie trackers using d3.js"
-          image: ""
+        - text: "Interactive data visualization of website cookie trackers using d3.js."
+          images: ["/about/hhha_journal.jpg"]
           link: ""
-    - tags: [web_development, wordpress]
-      description: "Built website about self-defence for women using wordpress."
-      link: "https://fffac.net"
-    - tags: [web, interactive]
-      description: "Build wall paper using twitter api"
+    - major_tags: [code, design]
+      tags: [web_development, CSS, JavaScript, PHP, wordpress]
+      description: "Developed a self-defense class website for women using WordPress."
+      more:
+        - text: ""
+          images: ["/about/fffac_01.jpg", "/about/fffac_02.jpg", "/about/fffac_03.jpg", "/about/fffac_04.jpg"]
+          link: "https://fffac.net"
+    - major_tags: [code, design]
+      tags: [web_development, creative_coding, JavaScript, Node.js]
+      description: "Built an interactive wallpaper for the queer community that collects campaign hashtags using the Twitter API to encourage participation."
 
 - year: 2020
 
   work:
-    - tags: [programming, app_development]
-      description: "Built scrollable tab view library for react native."
-    - tags: []
-      description: "Participated in Major updates and maintanance react native app"
-    - tags: []
-      description: "Designed the major update of restaurant review app"
-    - tags: []
-      description: "app design and system"
-    - tags: []
-      description: "maintained RoR web framework"
-
+    - major_tags: [code, design]
+      tags: [app_development, JavaScript, React, React_Native]
+      description: "Built scrollable tab view with React Native."
+    - major_tags: [code, design]
+      tags: [app_development, JavaScript, React, React_Native]
+      description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
+    - major_tags: [code]
+      tags: [web_development, Ruby, JavaScript]
+      description: "Maintained web application based on Ruby on Rails."
 
 
 - year: ~2019
 
   work:
-    - tags: [design]
-      description: "Graphics design intern."
-    - tags: [web, network]
-      description: "built web project with simple ftp protocol"
+    - major_tags: [design]
+      tags: [design]
+      description: "Worked as a graphic design intern, designed website and application."
   side_project:
-    - tags: [web]
-      description: "Designed and Developed graduation archiving website with WordPress."
-    - tags: [web, data_visualization]
-      description: "build visualize youtube next video recommendation with p5.js and sqlite"
-    - tags: [design]
-      description: "Archived buildings occupied with various factors"
-    - tags: [design]
-      description: "Did various editorial & graphic design works"
+    - major_tags: [code, design]
+      tags: [web_development, CSS, JavaScript, php, WordPress]
+      description: "Designed and Developed university design graduation artworks archiving website with WordPress."
+    - major_tags: [code, design]
+      tags: [web_development, data_visualization, creative_coding, JavaScript, p5.js, Python]
+      description: "Built a data visualization of YouTube's recommended videos with p5.js and tinyDB. The project crawl the data from the YouTube website through a video URL input and visualize recommendations."
+    - major_tags: [code, design]
+      tags: [editorial_design, motion_graphics, media_art, film]
+      description: "Created various editorial, graphics and media art pieces during my time at university."
       more:
-        - text: "made screen saver. (with japanese supermarket newspaper)"
+        - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law."
           image: ""
           link: ""
-        - text: "simple game with button"
+        - text: "Created a screensaver inspired by Japanese supermarket leaflets."
           image: ""
           link: ""
-        - text: "shot short film"
+        - text: "Motion graphics work created for a broadcast channel targeted towards women in 2030 to establish its channel identity."
           image: ""
           link: ""
-        - text: "simple orgol with infrared line tracking sensor and arduino"
+        - text: "Made a city destruction game using Arduino and Flash technology."
           image: ""
           link: ""
-        - text: "motion graphics"
+        - text: "Shot a short film in Hong Kong."
+          image: ""
+          link: ""
+        - text: "Built a simple music box (orgel) using Arduino and an infrared line tracking sensor."
           image: ""
           link: ""
 

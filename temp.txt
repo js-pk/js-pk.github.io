@@ -115,3 +115,6 @@ A versatile developer with experience in both design and computer science, capab
       description: "learn ruby and react, lambda"
     - tags: [computer_science]
       description: "Studied Linear algibra, Studied data structure, "
+
+          - tags: [back_end, linux]
+      description: "Set and maintained personal server."

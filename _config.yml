@@ -33,6 +33,7 @@ linkedin_username: jspk
 theme: minima
 plugins:
   - jekyll-feed
+
 # defaults:
 #   - scope:
 #       path: "assets/images"

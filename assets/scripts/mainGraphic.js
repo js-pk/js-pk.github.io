@@ -86,6 +86,8 @@ window.onload = function() {
             '/assets/images/k.svg', 
         ];
 
+        var ratio = getSizeRatio();
+
         Promise.all(urls.map(function(path, i) { 
             return loadSvg(path).then(function(root) {
                 var color = Common.choose(['#ffd400', '#1c79ff', '#ff4a26']);
@@ -93,7 +95,7 @@ window.onload = function() {
                 var torque = Common.random(-0.2, 0.2 );
                 var mass = Common.random(1, 2);
                 var vertexSets = select(root, 'path')
-                    .map(function(path) { return Vertices.scale(Svg.pathToVertices(path, 5), 1, 1); });
+                    .map(function(path) { return Vertices.scale(Svg.pathToVertices(path, 5), 1.2*ratio, 1.2*ratio); });
 
                 var body = Bodies.fromVertices(getRandomPosition(render.bounds.max.x*0.22*i, render.bounds.max.x*0.22*(i+1)).x, getRandomPosition().y, vertexSets, {
                     friction: friction,
@@ -118,7 +120,8 @@ window.onload = function() {
     }
 
     function loadPolygons() {
-        var rectangle = Bodies.rectangle(getRandomPosition().x, getRandomPosition().y, 100, 100, {
+        var ratio = getSizeRatio();
+        var rectangle = Bodies.rectangle(getRandomPosition().x, getRandomPosition().y, 120*ratio, 120*ratio, {
             frictionAir: 0.005,
             torque: -0.2,
             mass: 1,
@@ -127,7 +130,7 @@ window.onload = function() {
             }
         });
 
-        var circle = Bodies.circle(getRandomPosition().x, getRandomPosition().y, 50, {
+        var circle = Bodies.circle(getRandomPosition().x, getRandomPosition().y, 60*ratio, {
             frictionAir: 0.02,
             torque: 0.1,
             mass: 0.5,
@@ -136,7 +139,7 @@ window.onload = function() {
             }
         }, 8 );
 
-        var triangle = Bodies.polygon(getRandomPosition().x, getRandomPosition().y, 3, 70, {
+        var triangle = Bodies.polygon(getRandomPosition().x, getRandomPosition().y, 3, 84*ratio, {
             frictionAir: 0.02,
             torque: -0.4,
             mass: 1,
@@ -164,6 +167,17 @@ window.onload = function() {
             }, 8);
             Composite.add(engine.world, floorCircle);
         }
+    }
+
+    function getSizeRatio() {
+        var ratio = 1;
+        if (window.innerWidth > 800) {
+            ratio = window.innerWidth / 800;
+            if (ratio > 1.6) {
+                ratio = 1.6;
+            }
+        }
+        return ratio;
     }
 
     function setControls() {

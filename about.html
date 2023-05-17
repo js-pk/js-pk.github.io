@@ -91,13 +91,25 @@ robots: noindex
       {% endfor %}
       </div>
       <li class="description indented">{{item.description}}</li>
-      {% comment %} {% for image in item.more.images %}
-        <img src="{{image}}" />
-      {% endfor %} {% endcomment %}
+      {% assign more = item.more %}
+      {% for m in more %}
+        {% if m.link and m.link != "" %}
+          <a class="more indented" href="{{m.link}}">* {{m.text}}</a>
+        {% else %}
+          <span class="more indented">* {{m.text}}</span>
+        {% endif %}
+        {% if m.images and m.images.size > 0 %}
+          <div class="indented">
+          {% for image in m.images %}
+            <a href="/assets/images/{{image}}"><img class="thumbnail {{m.image_orientation}}" src="/assets/images/{{image}}" /></a>
+          {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
       {% endfor %}
     </ul>
     
-    <h4>side_project</h4>
+    <h4>side project</h4>
     <ul class="indented">
       {% for item in section.side_project %}
       <div class="buttons-container">
@@ -109,24 +121,21 @@ robots: noindex
       {% comment %} <a href="/assets/images/unrecommended_books1.jpg"><img class="thumbnail" src="/assets/images/unrecommended_books1.jpg" /></a> {% endcomment %}
       {% assign more = item.more %}
       {% for m in more %}
-        <a class="more" href="{{m.link}}">*{{m.text}}</a>
-        {% if m.image and m.image != "" %}
-          <a href="/assets/images/{{m.image}}"><img class="thumbnail" src="/assets/images/{{m.image}}" /></a>
+        {% if m.link and m.link != "" %}
+          <a class="more indented" href="{{m.link}}">* {{m.text}}</a>
+        {% else %}
+          <span class="more indented">* {{m.text}}</span>
+        {% endif %}
+        {% if m.images and m.images.size > 0 %}
+          <div class="indented">
+          {% for image in m.images %}
+            <a href="/assets/images/{{image}}"><img class="thumbnail" src="/assets/images/{{image}}" /></a>
+          {% endfor %}
+          </div>
         {% endif %}
       {% endfor %}
       {% endfor %}
     </ul>
-    
-    <h4>study</h4>
-    <ul class="indented">
-      {% for item in section.study %}
-      <div class="buttons-container">
-      {% for tag in item.tags%}
-      <button>{{tag}}</button>
-      {% endfor%}
-      </div>
-      <li  class="description">{{item.description}}</li>  
-      {% endfor %}
-    </ul>
+
   </div>
 {% endfor %}
