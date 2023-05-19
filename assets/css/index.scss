@@ -54,14 +54,14 @@ img.thumbnail {
   width: auto;
   // animation-timing-function: ease-in-out;
   // transition: 0.3s;
-  margin-bottom: calc($spacing-unit / 3);
+  margin-bottom: calc(#{$spacing-unit} / 3);
   border: 0.5px solid #ddd;
 }
 
 img.thumbnail.portrait {
   width: 54px;
   height: auto;
-  margin-bottom: calc($spacing-unit / 3);
+  margin-bottom: calc(#{$spacing-unit} / 3);
 }
 
 canvas {

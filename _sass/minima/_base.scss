@@ -29,7 +29,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, li, ol, dl, figure, %vertical-rhythm {
-  // margin-bottom: calc($spacing-unit / 2);
+  // margin-bottom: calc(#{$spacing-unit} / 2);
   margin-bottom: 4px;
 }
 
@@ -40,7 +40,8 @@ ul, li, ol, dl, figure, %vertical-rhythm {
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
-  margin-top: calc($spacing-unit / 2);
+  margin-top: -webkit-calc(#{$spacing-unit} / 2);
+  margin-top: calc(#{$spacing-unit} / 2);
 }
 
 
@@ -73,11 +74,13 @@ figcaption {
  */
 ul, ol {
   // margin-left: $tab;
-  margin-bottom: calc($spacing-unit / 2);
+  margin-bottom: calc(#{$spacing-unit} / 2);
+  margin-bottom: -webkit-calc(#{$spacing-unit} / 2);
 }
 
 li {
-  margin-bottom: calc($spacing-unit / 3);
+  margin-bottom: calc(#{$spacing-unit} / 3);
+  margin-bottom: -webkit-calc(#{$spacing-unit} / 3);
   list-style: none;
   line-height: 1.3;
 }
@@ -92,7 +95,8 @@ li {
 .indented {
   margin-left: $tab;
   @include media-query($on-palm) {
-    margin-left: calc($tab / 2);
+    margin-left: calc(#{$tab} / 2);
+    margin-left: -webkit-calc(#{$tab} / 2);
   }
 }
 
@@ -176,7 +180,8 @@ a {
 blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
-  padding-left: calc($spacing-unit / 2);
+  padding-left: calc(#{$spacing-unit} / 2);
+  padding-left: -webkit-calc(#{$spacing-unit} / 2);
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -231,13 +236,17 @@ pre {
   @include media-query($on-laptop) {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
     max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-    padding-right: calc($spacing-unit / 2);
-    padding-left: calc($spacing-unit / 2);
+    padding-right: -webkit-calc(#{$spacing-unit} / 2);
+    padding-right: calc(#{$spacing-unit} / 2);
+    padding-left: -webkit-calc(#{$spacing-unit} / 2);
+    padding-left: calc(#{$spacing-unit} / 2);
   }
 
   @include media-query($on-palm) {
-    padding-right: calc($spacing-unit / 3);
-    padding-left: calc($spacing-unit / 3);
+    padding-right: -webkit-calc(#{$spacing-unit} / 3);
+    padding-right: calc(#{$spacing-unit} / 3);
+    padding-left: -webkit-calc(#{$spacing-unit} / 3);
+    padding-left: calc(#{$spacing-unit} / 3);
   }
 }
 
@@ -292,7 +301,8 @@ table {
     }
   }
   th, td {
-    padding: calc($spacing-unit / 3) calc($spacing-unit / 2);
+    padding: -webkit-calc(#{$spacing-unit} / 3) -webkit-calc(#{$spacing-unit} / 2);
+    padding: calc(#{$spacing-unit} / 3) calc(#{$spacing-unit} / 2);
   }
   th {
     background-color: lighten($grey-color-light, 3%);
@@ -371,6 +381,6 @@ strong {
 
 .block {
   &:not(:last-child) {
-    margin-bottom: ($spacing-unit * 2);
+    margin-bottom: calc(#{$spacing-unit} * 2);
   }
 }
