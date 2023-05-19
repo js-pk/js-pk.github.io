@@ -94,9 +94,11 @@ robots: noindex
       {% assign more = item.more %}
       {% for m in more %}
         {% if m.link and m.link != "" %}
-          <a class="more indented" href="{{m.link}}">* {{m.text}}</a>
+          <small class="affiliation"><a class="indented" href="{{m.link}}" target="_blank" >{{m.text}} ↗</a></small>
         {% else %}
+          {% if m.text and m.text != "" %}
           <span class="more indented">* {{m.text}}</span>
+          {% endif %}
         {% endif %}
         {% if m.images and m.images.size > 0 %}
           <div class="indented">
@@ -122,9 +124,11 @@ robots: noindex
       {% assign more = item.more %}
       {% for m in more %}
         {% if m.link and m.link != "" %}
-          <a class="more indented" href="{{m.link}}">* {{m.text}}</a>
+        <small class="affiliation"><a class="indented" href="{{m.link}}" target="_blank" >{{m.text}} ↗</a></small>
         {% else %}
+          {% if m.text and m.text != "" %}
           <span class="more indented">* {{m.text}}</span>
+          {% endif %}
         {% endif %}
         {% if m.images and m.images.size > 0 %}
           <div class="indented">

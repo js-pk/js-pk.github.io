@@ -36,7 +36,7 @@
       tags: [web_development, JavaScript, CSS]
       description: "Developed a portfolio website for an architecture company with Cargo web builder."
       more:
-        - text: ""
+        - text: "Website"
           images: ["/about/biroso_samuso_01.jpg", "/about/biroso_samuso_02.jpg"]
           link: "https://samusob.co.kr"
 
@@ -74,11 +74,14 @@
       tags: [HHHA, media_arts, creative_coding]
       description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
       more: 
+        - text: "Project Archive"
+          images: ["/about/hhha_archive.jpg"]
+          link: "https://www.hhha.online"
         - text: "Main color recognition program using the nearest neighbor algorithm."
           images: ["/about/hhha_organize_01.jpg", "/about/hhha_organize_02.jpg"]
           link: ""
         - text: "Visualization of the divorce rate in korea with CSS grid and recursive function."
-          images: ["/about/hhha_divorce_01.jpg", "/about/hhha_divorce_02.jpg", "/about/hhha_divorce_03.jpg", "/about/hhha_divorce_04.jpg"]
+          images: ["/about/hhha_divorce_01.jpg", "/about/hhha_divorce_02.jpg", "/about/hhha_divorce_03.jpg"]
           link: ""
         - text: "Simple visual chat application using socket.io."
           images: ["/about/hhha_meeting.jpg"]
@@ -90,26 +93,43 @@
       tags: [web_development, CSS, JavaScript, PHP, wordpress]
       description: "Developed a self-defense class website for women using WordPress."
       more:
-        - text: ""
+        - text: "Website"
           images: ["/about/fffac_01.jpg", "/about/fffac_02.jpg", "/about/fffac_03.jpg", "/about/fffac_04.jpg"]
           link: "https://fffac.net"
     - major_tags: [code, design]
       tags: [web_development, creative_coding, JavaScript, Node.js]
       description: "Built an interactive wallpaper for the queer community that collects campaign hashtags using the Twitter API to encourage participation."
+      more:
+        - text: ""
+          images: ["/about/homeground_01.jpg", "/about/homeground_02.jpg", "/about/homeground_03.jpg"] 
 
 - year: 2020
 
   work:
     - major_tags: [code, design]
       tags: [app_development, JavaScript, React, React_Native]
-      description: "Built scrollable tab view with React Native."
+      description: "Built swipeable tab view with React Native."
+      more:
+        - text: ""
+          images: ["/about/swipeable_tab_view.gif"]
+      more:
+        - text: ""
+          images: ["/about/swipeable_tab_view.gif"]
+          image_orientation: "portrait"
     - major_tags: [code, design]
       tags: [app_development, JavaScript, React, React_Native]
       description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
     - major_tags: [code]
       tags: [web_development, Ruby, JavaScript]
       description: "Maintained web application based on Ruby on Rails."
-
+      more: 
+        - text: ""
+          images: ["/about/polle_web_01.jpg", "/about/polle_web_02.jpg", "/about/polle_web_03.jpg", "/about/polle_web_04.jpg"]
+          image_orientation: "portrait"
+  side_project:
+    - major_tags: [code]
+      tags: [study, Compter_Science, C, Math]
+      description: "Studied C Language, Data Structure, Algorithm, Linear Algibra, Computer Graphics and Network System."
 
 - year: ~2019
 
@@ -121,18 +141,25 @@
     - major_tags: [code, design]
       tags: [web_development, CSS, JavaScript, php, WordPress]
       description: "Designed and Developed university design graduation artworks archiving website with WordPress."
+      more:
+      - text: ""
+        images: ["/about/visual_voyage_01.jpg", "/about/visual_voyage_02.jpg", "/about/visual_voyage_03.jpg"]
     - major_tags: [code, design]
       tags: [web_development, data_visualization, creative_coding, JavaScript, p5.js, Python]
       description: "Built a data visualization of YouTube's recommended videos with p5.js and tinyDB. The project crawl the data from the YouTube website through a video URL input and visualize recommendations."
+      more:
+        - text: "Website"
+          images: ["/about/youtube_next_01.jpg", "/about/youtube_next_02.jpg", "/about/youtube_next_03.jpg"]
+          link: "http://ec2-3-1-20-212.ap-southeast-1.compute.amazonaws.com"
     - major_tags: [code, design]
       tags: [editorial_design, motion_graphics, media_art, film]
       description: "Created various editorial, graphics and media art pieces during my time at university."
       more:
         - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law."
-          image: ""
+          images: ["/about/buildings_01.jpg", "/about/buildings_02.jpg", "/about/buildings_03.jpg", "/about/buildings_04.jpg", ]
           link: ""
         - text: "Created a screensaver inspired by Japanese supermarket leaflets."
-          image: ""
+          images: ["/about/leaflet_01.jpg"]
           link: ""
         - text: "Motion graphics work created for a broadcast channel targeted towards women in 2030 to establish its channel identity."
           image: ""
