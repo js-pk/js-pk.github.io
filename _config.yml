@@ -29,6 +29,8 @@ github_username:  js-pk
 instagram_username: js___pk
 linkedin_username: jspk
 
+google_analytics: 'G-S2J8KED61T'
+
 # Build settings
 theme: minima
 plugins:
