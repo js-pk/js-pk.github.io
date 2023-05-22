@@ -10,7 +10,7 @@
       description: "Created a personalized gift generation system by using user database and graphics software."
       more:
         - text: ""
-          images: ["/about/gift_generation_01.jpg", "/about/gift_generation_02.jpg", "/about/gift_generation_03.jpg", "/about/gift_generation_04.jpg", "/about/gift_generation_05.jpg", "/about/gift_generation_06.jpg",]
+          images: ["about/gift_generation_01.jpg", "about/gift_generation_02.jpg", "about/gift_generation_03.jpg", "about/gift_generation_04.jpg", "about/gift_generation_05.jpg", "about/gift_generation_06.jpg",]
     - major_tags: [code, design]
       tags: [app_development, JavaScript, React_Native]
       description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
@@ -27,7 +27,7 @@
           images: ["about/books_unrecommended_01.jpg", "about/books_unrecommended_02.jpg", "about/books_unrecommended_03.jpg", "about/books_unrecommended_04.jpg", "about/books_unrecommended_05.jpg"]
           link: ""
         - text: "Graphic motivated by the advertisement leaflet of toy for children."
-          images: ["/about/hhha_yellow.png"]
+          images: ["about/hhha_yellow.png"]
           link: ""
     - major_tags: [code, design]
       tags: [app_development, Svelte, Electron]
@@ -37,7 +37,7 @@
       description: "Developed a portfolio website for an architecture company with Cargo web builder."
       more:
         - text: "Website"
-          images: ["/about/biroso_samuso_01.jpg", "/about/biroso_samuso_02.jpg"]
+          images: ["about/biroso_samuso_01.jpg", "about/biroso_samuso_02.jpg"]
           link: "https://samusob.co.kr"
 
       
@@ -52,13 +52,13 @@
       description: "Developed custom vector map tile for the MapboxGLJS renderer with raw OpenStreetMap, S.Korea government geo-database."
       more:
         - text: ""
-          images: ["/about/map_01.jpg", "/about/map_02.jpg", "/about/map_03.jpg", "/about/map_04.jpg", "/about/map_05.jpg", "/about/map_06.jpg", "/about/map_07.jpg", "/about/map_08.jpg", "/about/map_09.jpg"]
+          images: ["about/map_01.jpg", "about/map_02.jpg", "about/map_03.jpg", "about/map_04.jpg", "about/map_05.jpg", "about/map_06.jpg", "about/map_07.jpg", "about/map_08.jpg", "about/map_09.jpg"]
     - major_tags: [code]
       tags: [app_development, JavaScript, React_Native, UI_library]
       description: "Built draggable list view with React Native."
       more:
         - text: ""
-          images: ["/about/draggable_list.gif"]
+          images: ["about/draggable_list.gif"]
           image_orientation: "portrait"
   side_project:
     - major_tags: [code]
@@ -67,7 +67,7 @@
       more:
       - text: "presentation"
         link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
-        images: ["/about/mapbox_gljs_architecture_01.jpg", "/about/mapbox_gljs_architecture_02.jpg", "/about/mapbox_gljs_architecture_03.jpg"]
+        images: ["about/mapbox_gljs_architecture_01.jpg", "about/mapbox_gljs_architecture_02.jpg", "about/mapbox_gljs_architecture_03.jpg"]
       - text: "script"
         link: "assets/data/mapbox_gljs_architecture_script.pdf"
     - major_tags: [code, design]
@@ -75,33 +75,33 @@
       description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
       more: 
         - text: "Project Archive"
-          images: ["/about/hhha_archive.jpg"]
+          images: ["about/hhha_archive.jpg"]
           link: "https://www.hhha.online"
         - text: "Main color recognition program using the nearest neighbor algorithm."
-          images: ["/about/hhha_organize_01.jpg", "/about/hhha_organize_02.jpg"]
+          images: ["about/hhha_organize_01.jpg", "about/hhha_organize_02.jpg"]
           link: ""
         - text: "Visualization of the divorce rate in korea with CSS grid and recursive function."
-          images: ["/about/hhha_divorce_01.jpg", "/about/hhha_divorce_02.jpg", "/about/hhha_divorce_03.jpg"]
+          images: ["about/hhha_divorce_01.jpg", "about/hhha_divorce_02.jpg", "about/hhha_divorce_03.jpg"]
           link: ""
         - text: "Simple visual chat application using socket.io."
-          images: ["/about/hhha_meeting.jpg"]
+          images: ["about/hhha_meeting.jpg"]
           link: ""
         - text: "Interactive data visualization of website cookie trackers using d3.js."
-          images: ["/about/hhha_journal.jpg"]
+          images: ["about/hhha_journal.jpg"]
           link: ""
     - major_tags: [code, design]
       tags: [web_development, CSS, JavaScript, PHP, wordpress]
       description: "Developed a self-defense class website for women using WordPress."
       more:
         - text: "Website"
-          images: ["/about/fffac_01.jpg", "/about/fffac_02.jpg", "/about/fffac_03.jpg", "/about/fffac_04.jpg"]
+          images: ["about/fffac_01.jpg", "about/fffac_02.jpg", "about/fffac_03.jpg", "about/fffac_04.jpg"]
           link: "https://fffac.net"
     - major_tags: [code, design]
       tags: [web_development, creative_coding, JavaScript, Node.js]
       description: "Built an interactive wallpaper for the queer community that collects campaign hashtags using the Twitter API to encourage participation."
       more:
         - text: ""
-          images: ["/about/homeground_01.jpg", "/about/homeground_02.jpg", "/about/homeground_03.jpg"] 
+          images: ["about/homeground_01.jpg", "about/homeground_02.jpg", "about/homeground_03.jpg"] 
 
 - year: 2020
 
@@ -111,10 +111,10 @@
       description: "Built swipeable tab view with React Native."
       more:
         - text: ""
-          images: ["/about/swipeable_tab_view.gif"]
+          images: ["about/swipeable_tab_view.gif"]
       more:
         - text: ""
-          images: ["/about/swipeable_tab_view.gif"]
+          images: ["about/swipeable_tab_view.gif"]
           image_orientation: "portrait"
     - major_tags: [code, design]
       tags: [app_development, JavaScript, React, React_Native]
@@ -124,7 +124,7 @@
       description: "Maintained web application based on Ruby on Rails."
       more: 
         - text: ""
-          images: ["/about/polle_web_01.jpg", "/about/polle_web_02.jpg", "/about/polle_web_03.jpg", "/about/polle_web_04.jpg"]
+          images: ["about/polle_web_01.jpg", "about/polle_web_02.jpg", "about/polle_web_03.jpg", "about/polle_web_04.jpg"]
           image_orientation: "portrait"
   side_project:
     - major_tags: [code]
@@ -143,23 +143,23 @@
       description: "Designed and Developed university design graduation artworks archiving website with WordPress."
       more:
       - text: ""
-        images: ["/about/visual_voyage_01.jpg", "/about/visual_voyage_02.jpg", "/about/visual_voyage_03.jpg"]
+        images: ["about/visual_voyage_01.jpg", "about/visual_voyage_02.jpg", "about/visual_voyage_03.jpg"]
     - major_tags: [code, design]
       tags: [web_development, data_visualization, creative_coding, JavaScript, p5.js, Python]
       description: "Built a data visualization of YouTube's recommended videos with p5.js and tinyDB. The project crawl the data from the YouTube website through a video URL input and visualize recommendations."
       more:
         - text: "Website"
-          images: ["/about/youtube_next_01.jpg", "/about/youtube_next_02.jpg", "/about/youtube_next_03.jpg"]
+          images: ["about/youtube_next_01.jpg", "about/youtube_next_02.jpg", "about/youtube_next_03.jpg"]
           link: "http://ec2-3-1-20-212.ap-southeast-1.compute.amazonaws.com"
     - major_tags: [code, design]
       tags: [editorial_design, motion_graphics, media_art, film]
       description: "Created various editorial, graphics and media art pieces during my time at university."
       more:
         - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law."
-          images: ["/about/buildings_01.jpg", "/about/buildings_02.jpg", "/about/buildings_03.jpg", "/about/buildings_04.jpg", ]
+          images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg", ]
           link: ""
         - text: "Created a screensaver inspired by Japanese supermarket leaflets."
-          images: ["/about/leaflet_01.jpg"]
+          images: ["about/leaflet_01.jpg"]
           link: ""
         - text: "Motion graphics work created for a broadcast channel targeted towards women in 2030 to establish its channel identity."
           image: ""
