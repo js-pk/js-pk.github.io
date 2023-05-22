@@ -29,11 +29,7 @@ github_username:  js-pk
 instagram_username: js___pk
 linkedin_username: jspk
 
-analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id: "G-S2J8KED61T"
-    anonymize_ip: # true, false (default)
+google_analytics: "G-S2J8KED61T"
 
 # Build settings
 theme: minima
