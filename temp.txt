@@ -114,7 +114,20 @@ A versatile developer with experience in both design and computer science, capab
     - tags: [programming_language]
       description: "learn ruby and react, lambda"
     - tags: [computer_science]
-      description: "Studied Linear algibra, Studied data structure, "
+      description: "Studied C Language, Data Structure, Algorithm, Linear Algibra, Computer Graphics and Network System."
 
           - tags: [back_end, linux]
       description: "Set and maintained personal server."
+
+              - text: "Motion graphics work created for a broadcast channel targeted towards women in 2030 to establish its channel identity."
+          image: ""
+          link: ""
+
+                  - text: "Made a city destruction game using Arduino and Flash technology."
+          image: ""
+          link: ""
+
+          - major_tags: [code, design]
+        tags: [APP_DEVELOPMENT, UI/UX, Svelte, Electron]
+        description: "Developed a fashion styling application for cartoonist with Svelte and Electron."
+        description_ko: "Svelete과 Electron을 기반으로 웹툰 작가를 위한 의상 스타일링 어플리케이션을 제작했습니다."

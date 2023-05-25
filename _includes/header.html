@@ -1,9 +1,14 @@
-<header class="site-header" role="banner">
 
+<script>
+  function hideInternationalization(element) {
+    element.parentElement.classList.add("hidden");
+  }
+</script>
+
+<header class="site-header" role="banner">
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    {% comment %} <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>{% endcomment %}
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -27,4 +32,16 @@
       </nav>
     {%- endif -%}
   </div>
+
+    {%- if page.lang == 'en' and page.korean_url != '' -%}
+      <div class="internationalization">
+        <a href="/{{ page.korean_url }}">한국어로 이 페이지 보기</a>
+        <button onclick="hideInternationalization(this)"><img src="assets/images/close.svg"/></button>
+      </div>
+    {% elsif page.lang == 'ko' and page.english_url != '' %}
+      <div class="internationalization">
+        <a href="/{{ page.english_url }}">Read this page in English</a>
+        <button onclick="hideInternationalization(this)"><img src="assets/images/close.svg"/></button>
+      </div>
+    {% endif %}
 </header>

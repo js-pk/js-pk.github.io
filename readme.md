@@ -1,5 +1,8 @@
 
 
+jspk portfolio & blog 
+---------------------
+
 ### to reinstall vendor
 bundle install
 

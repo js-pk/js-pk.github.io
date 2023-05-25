@@ -1,176 +1,273 @@
 
-- year: 2022-2023
+name: "JS Park"
+name_ko: "박정수"
+job_title: "Front-End Developer & Designer"
+job_title_ko: "프론트엔드 개발자 & 디자이너"
+description: "Hello! Please call me JS. I worked at a tech company as a developer & designer for 4 years. My work varies from modern front-end development to UI/UX, graphics and creative coding. I did rapid prototyping in both design and code, architected and maintained web applications, build graphics automation process and more. I also did various media art projects on the side, focusing on experimental web features and interactions. Originally based in Seoul, I am now looking to relocate for new adventure. Please check below for more information ↓
+"
+description_ko: "디자인하고 개발하는 박정수 입니다. IT 업계에서 4년동안 일해왔습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 실험적인 프로토타이핑부터 웹/모바일 어플리케이션의 개발 및 설계, 그래픽 소프트웨어 자동화 시스템 구축, 기업 포트폴리오 웹사이트 제작 등 여러 분야의 일을 넘나들며 해왔습니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업을 진행 중 입니다. 멋진 비주얼과 도전적인 기능을 담은 웹사이트가 필요하시다면 연락주세요. 혹은 무엇이든 코딩과 디자인 사이의 일이라면 환영입니다! 어떤 작업이 가능할지 함께 이야기를 나눠봅시다."
 
-  work:
-    - major_tags: [code]
-      tags: [web_development, JavaScript, Ruby, Node.js, Next.js]
-      description: "Migrated MAU 50k web application to Next.js from a Rails based web application framework."
-    - major_tags: [code, design]
-      tags: [automation, internal_tool, editorial_design, Ruby, SQL]
-      description: "Created a personalized gift generation system by using user database and graphics software."
-      more:
-        - text: ""
-          images: ["about/gift_generation_01.jpg", "about/gift_generation_02.jpg", "about/gift_generation_03.jpg", "about/gift_generation_04.jpg", "about/gift_generation_05.jpg", "about/gift_generation_06.jpg",]
-    - major_tags: [code, design]
-      tags: [app_development, JavaScript, React_Native]
-      description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
-      more:
-        - text: ""
-          images: ["about/polle_app_01.jpg", "about/polle_app_02.jpg", "about/polle_app_03.jpg", "about/polle_app_04.jpg"]
-          image_orientation: "portrait"
-  side_project:
-    - major_tags: [code, design]
-      tags: [media_art, arduino, webGL, JavaScript]
-      description: "Participated in the exhibition &lt;The Post Modern Child&gt; at the Museum of Contemporary Art Busan as a member of web experiment group HHHA."
-      more:
-        - text: "Book recommendation with arduino, thermal printer and web."
-          images: ["about/books_unrecommended_01.jpg", "about/books_unrecommended_02.jpg", "about/books_unrecommended_03.jpg", "about/books_unrecommended_04.jpg", "about/books_unrecommended_05.jpg"]
-          link: ""
-        - text: "Graphic motivated by the advertisement leaflet of toy for children."
-          images: ["about/hhha_yellow.png"]
-          link: ""
-    - major_tags: [code, design]
-      tags: [app_development, Svelte, Electron]
-      description: "Developed a fashion styling application for cartoonist with Svelte and Electron."
-    - major_tags: [code]
-      tags: [web_development, JavaScript, CSS]
-      description: "Developed a portfolio website for an architecture company with Cargo web builder."
-      more:
-        - text: "Website"
-          images: ["about/biroso_samuso_01.jpg", "about/biroso_samuso_02.jpg"]
-          link: "https://samusob.co.kr"
+experiences:
+  - title: "Member of Web Experiement Group"
+    title_ko: "웹/미디어아트 그룹 멤버"
+    place: "HHHA - hejhellohalloannyeong"
+    place_ko: "HHHA - hejhellohalloannyeong"
+    link: "https://www.instagram.com/hejhellohalloannyeong/"
+    period: "(2021-PRESENT)"
+  - title: "Front-End Developer & UI/UX Designer"
+    title_ko: "프론트엔드 개발자 & UI/UX 디자이너"
+    place: "Polle Inc."
+    place_ko: "(주)어떤사람들"
+    link: "https://polle.com"
+    period: "(MAR 2020-APR 2023. Seoul)"
+  - title: "UI/UX Designer Intern"
+    title_ko: "UI/UX 디자이너 인턴"
+    place: "Polle Inc."
+    place_ko: "(주)어떤사람들"
+    link: "https://polle.com"
+    period: "(JAN 2020 - MAR 2020. Seoul)"
+  - title: "Graphic Designer Intern"
+    title_ko: "그래픽 디자이너 인턴"
+    place: "Zicto Inc."
+    place_ko: "(주)직토"
+    link: ""
+    period: "(JUN 2018 - AUG 2018. Seoul)" 
 
-      
-- year: 2021
+educations:
+  - title: "Bachelor of Computer Science"
+    title_ko: "컴퓨터공학 학사"
+    institution: "Korea National Open University"
+    institution_ko: "한국방송통신대학교"
+    period: (2021-2023. S.KOREA)
+  - title: "Bachelor of Visual Communication Design <br/>Minor in Media Interaction Design"
+    title_ko: "시각디자인 학사 | 영상디자인 부전공"
+    institution: "Ewha Womans University"
+    institution_ko: "이화여자대학교"
+    period: "(2015-2020. Seoul)"
+  - title: "Exchange Student"
+    title_ko: "교환학생"
+    institution: "Hong Kong Baptist University"
+    institution_ko: "Hong Kong Baptist University"
+    period: "(2017. Hong Kong)"
 
-  work:
-    - major_tags: [code]
-      tags: [R&D, algorithm]
-      description: "Participated in designing the core logic for a restaurant search, recommendation, and ranking system."
-    - major_tags: [code]
-      tags: [GIS_development, JavaScript, OpenStreetMap, Ruby]
-      description: "Developed custom vector map tile for the MapboxGLJS renderer with raw OpenStreetMap, S.Korea government geo-database."
-      more:
-        - text: ""
-          images: ["about/map_01.jpg", "about/map_02.jpg", "about/map_03.jpg", "about/map_04.jpg", "about/map_05.jpg", "about/map_06.jpg", "about/map_07.jpg", "about/map_08.jpg", "about/map_09.jpg"]
-    - major_tags: [code]
-      tags: [app_development, JavaScript, React_Native, UI_library]
-      description: "Built draggable list view with React Native."
-      more:
-        - text: ""
-          images: ["about/draggable_list.gif"]
-          image_orientation: "portrait"
-  side_project:
-    - major_tags: [code]
-      tags: [contribution, GIS development, Mapbox, JavaScript]
-      description: "Be a speaker at the Open Source Architecture Analyse Semina, presenting &lt;Mapbox GL JS Architecture Analyse&gt;"
-      more:
-      - text: "presentation"
-        link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
-        images: ["about/mapbox_gljs_architecture_01.jpg", "about/mapbox_gljs_architecture_02.jpg", "about/mapbox_gljs_architecture_03.jpg"]
-      - text: "script"
-        link: "assets/data/mapbox_gljs_architecture_script.pdf"
-    - major_tags: [code, design]
-      tags: [HHHA, media_arts, creative_coding]
-      description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
-      more: 
-        - text: "Project Archive"
-          images: ["about/hhha_archive.jpg"]
-          link: "https://www.hhha.online"
-        - text: "Main color recognition program using the nearest neighbor algorithm."
-          images: ["about/hhha_organize_01.jpg", "about/hhha_organize_02.jpg"]
-          link: ""
-        - text: "Visualization of the divorce rate in korea with CSS grid and recursive function."
-          images: ["about/hhha_divorce_01.jpg", "about/hhha_divorce_02.jpg", "about/hhha_divorce_03.jpg"]
-          link: ""
-        - text: "Simple visual chat application using socket.io."
-          images: ["about/hhha_meeting.jpg"]
-          link: ""
-        - text: "Interactive data visualization of website cookie trackers using d3.js."
-          images: ["about/hhha_journal.jpg"]
-          link: ""
-    - major_tags: [code, design]
-      tags: [web_development, CSS, JavaScript, PHP, wordpress]
-      description: "Developed a self-defense class website for women using WordPress."
-      more:
-        - text: "Website"
-          images: ["about/fffac_01.jpg", "about/fffac_02.jpg", "about/fffac_03.jpg", "about/fffac_04.jpg"]
-          link: "https://fffac.net"
-    - major_tags: [code, design]
-      tags: [web_development, creative_coding, JavaScript, Node.js]
-      description: "Built an interactive wallpaper for the queer community that collects campaign hashtags using the Twitter API to encourage participation."
-      more:
-        - text: ""
-          images: ["about/homeground_01.jpg", "about/homeground_02.jpg", "about/homeground_03.jpg"] 
+publications:
+  - title: "Featured in &lt;It’s Nice That&gt;"
+    title_ko: "&lt;It’s Nice That&gt; 인터뷰"
+    description: "Dive into the random, genius, alphabetically-organised world of HejHelloHalloAnnyeong’s web design experiments"
+    description_ko: "Dive into the random, genius, alphabetically-organised world of HejHelloHalloAnnyeong’s web design experiments"
+    link: "https://www.itsnicethat.com/articles/hejhellohalloannyeong-digital-230522"
+  - title: "Featured in &lt;Design Magazine CA #261 - Website Show&gt;"
+    title_ko: "디자인 매거진 CA #261 - Website Show 작업 소개"
+    description: "Online Experimentation. Interaction, Sound, Visual inspiration."
+    description_ko: "Online Experimentation. Interaction, Sound, Visual inspiration."
+    link: "https://www.cabooks.co.kr/product/CA261"
+  - title: "Speaker at the Q/A session &lt;T/SCHOOL 2022: Typography in the Digital Era&gt;"
+    title_ko: "T/SCHOOL 2022: 디지털 시대의 타이포그래피 Q/A 세션"
 
-- year: 2020
 
-  work:
-    - major_tags: [code, design]
-      tags: [app_development, JavaScript, React, React_Native]
-      description: "Built swipeable tab view with React Native."
-      more:
-        - text: ""
-          images: ["about/swipeable_tab_view.gif"]
-      more:
-        - text: ""
-          images: ["about/swipeable_tab_view.gif"]
-          image_orientation: "portrait"
-    - major_tags: [code, design]
-      tags: [app_development, JavaScript, React, React_Native]
-      description: "Contributed to major updates of a mobile app based on React Native by designing, prototyping, and developing new features."
-    - major_tags: [code]
-      tags: [web_development, Ruby, JavaScript]
-      description: "Maintained web application based on Ruby on Rails."
-      more: 
-        - text: ""
-          images: ["about/polle_web_01.jpg", "about/polle_web_02.jpg", "about/polle_web_03.jpg", "about/polle_web_04.jpg"]
-          image_orientation: "portrait"
-  side_project:
-    - major_tags: [code]
-      tags: [study, Compter_Science, C, Math]
-      description: "Studied C Language, Data Structure, Algorithm, Linear Algibra, Computer Graphics and Network System."
+projects:
+  - year: 2022-2023
 
-- year: ~2019
+    works:
+      - major_tags: [code]
+        tags: [WEB_DEVELOPMENT, JavaScript, Ruby, Node.js, Next.js]
+        description: "Migrated MAU 50k web application to Next.js from a Rails based web application framework."
+        description_ko: "MAU 5만인 웹 어플리케이션을 Rails 기반 프레임워크에서 Next.js로 이전했습니다."
+      - major_tags: [code, design]
+        tags: [AUTOMATION, INTERNAL_TOOL, EDITORIAL_DESIGN, Ruby, SQL]
+        description: "Created a personalized gift generation system by using user database and graphics software."
+        description_ko: "유저 데이터베이스와 그래픽 소프트웨어를 연동해 자동화된 개인 맞춤 굿즈 제작 시스템을 구축했습니다."
+        more:
+          - text: ""
+            images: ["about/gift_generation_01.jpg", "about/gift_generation_02.jpg", "about/gift_generation_03.jpg", "about/gift_generation_04.jpg", "about/gift_generation_05.jpg", "about/gift_generation_06.jpg",]
+      - major_tags: [code, design]
+        tags: [APP_DEVELOPMENT, UI/UX, JavaScript, React_Native]
+        description: "Contributed to three major version updates of a React Native-based mobile app  by designing, prototyping, and developing new features."
+        description_ko: "React Native 기반의 모바일 어플리케이션을 디자인, 프로토타이핑, 개발 및 유지보수 하며 3번의 메이저 버전 업그레이드에 기여했습니다."
+        more:
+          - text: ""
+            images: ["about/polle_app_01.jpg", "about/polle_app_02.jpg", "about/polle_app_03.jpg", "about/polle_app_04.jpg"]
+            image_orientation: "portrait"
+    side_projects:
+      - major_tags: [code, design]
+        tags: [MEDIA_ART, ARDUINO, WebGL, JavaScript]
+        description: "Participated in the exhibition &lt;The Post Modern Child&gt; at the Museum of Contemporary Art Busan as a member of web experiment group HHHA."
+        description_ko: "부산현대미술관에서 열린  &lt;포스트모던 어린이&gt; 전시에 HHHA 멤버로 참여했습니다."
+        more:
+          - text: "Book unrecommendation for children with arduino, thermal printer and web."
+            text_ko: "아두이노와 열전사 프린터, 웹을 이용한 어린이를 위한 비권장도서 소개"
+            images: ["about/books_unrecommended_01.jpg", "about/books_unrecommended_02.jpg", "about/books_unrecommended_03.jpg", "about/books_unrecommended_04.jpg", "about/books_unrecommended_05.jpg"]
+            link: ""
+          - text: "Graphic motivated by the advertisement leaflet of toy for children."
+            text_ko: "어린이 장난감 광고에서 차용한 그래픽 작업"
+            images: ["about/hhha_yellow.png"]
+            link: ""
+      - major_tags: [code]
+        tags: [WEB_DEVELOPMENT, JavaScript, CSS]
+        description: "Developed a portfolio website for an architecture company with Cargo web builder."
+        description_ko: "Cargo 웹빌더를 이용해 건축사무소를 위한 포트폴리오 웹사이트를 개발했습니다."
+        more:
+          - text: "Website"
+            text_ko: "웹사이트"
+            images: ["about/biroso_samuso_01.jpg", "about/biroso_samuso_02.jpg"]
+            link: "https://samusob.co.kr"
+      - major_tags: [code]
+        tags: [STUDY, COMPUTER_SCIENCE, ALGORITHM, MATH, C]
+        description: "Studied C Language, Data Structure, Algorithm, Linear Algibra, Computer Graphics and Network System."
+        description_ko: "C언어, 자료구조, 알고리즘, 선형대수, 컴퓨터 그래픽스 및 네트워크 시스템을 공부했습니다."
+        more:
+          - text: "Built sorting algorithms, dynamic array data structure, hash functions, and an ORM framework for MySQL using the C programming language."
+            text_ko: "C언어를 이용한 정렬 알고리즘, dynamic array, 해시, MySQL ORM 프레임워크"
+          - text: "code"
+            text_ko: "코드"
+            link: "https://github.com/js-pk/c-study"
 
-  work:
-    - major_tags: [design]
-      tags: [design]
-      description: "Worked as a graphic design intern, designed website and application."
-  side_project:
-    - major_tags: [code, design]
-      tags: [web_development, CSS, JavaScript, php, WordPress]
-      description: "Designed and Developed university design graduation artworks archiving website with WordPress."
-      more:
-      - text: ""
-        images: ["about/visual_voyage_01.jpg", "about/visual_voyage_02.jpg", "about/visual_voyage_03.jpg"]
-    - major_tags: [code, design]
-      tags: [web_development, data_visualization, creative_coding, JavaScript, p5.js, Python]
-      description: "Built a data visualization of YouTube's recommended videos with p5.js and tinyDB. The project crawl the data from the YouTube website through a video URL input and visualize recommendations."
-      more:
-        - text: "Website"
-          images: ["about/youtube_next_01.jpg", "about/youtube_next_02.jpg", "about/youtube_next_03.jpg"]
-          link: "http://ec2-3-1-20-212.ap-southeast-1.compute.amazonaws.com"
-    - major_tags: [code, design]
-      tags: [editorial_design, motion_graphics, media_art, film]
-      description: "Created various editorial, graphics and media art pieces during my time at university."
-      more:
-        - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law."
-          images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg", ]
-          link: ""
-        - text: "Created a screensaver inspired by Japanese supermarket leaflets."
-          images: ["about/leaflet_01.jpg"]
-          link: ""
-        - text: "Motion graphics work created for a broadcast channel targeted towards women in 2030 to establish its channel identity."
-          image: ""
-          link: ""
-        - text: "Made a city destruction game using Arduino and Flash technology."
-          image: ""
-          link: ""
-        - text: "Shot a short film in Hong Kong."
-          image: ""
-          link: ""
-        - text: "Built a simple music box (orgel) using Arduino and an infrared line tracking sensor."
-          image: ""
-          link: ""
+        
+  - year: 2021
+
+    works:
+      - major_tags: [code]
+        tags: [R&D, Algorithm, Ruby, SQL]
+        description: "Participated in designing the core logic for a restaurant search, recommendation, and ranking system."
+        description_ko: "음식점 검색, 추천, 랭킹 시스템을 위한 핵심 알고리즘 개발에 참여했습니다."
+      - major_tags: [code]
+        tags: [GIS_development, JavaScript, Mapbox, OpenStreetMap, Ruby, SQL]
+        description: "Developed custom vector map tile for the Mapbox GL JS renderer with raw OpenStreetMap, S.Korea government geo-database."
+        description_ko: "한국 공간정보 데이터베이스와 OpenStreetMap 로우데이터를 이용해 Mapbox GL JS 렌더러에 호환되는 커스텀 벡터 지도 타일을 제작했습니다."
+        more:
+          - text: ""
+            images: ["about/map_01.jpg", "about/map_02.jpg", "about/map_03.jpg", "about/map_04.jpg", "about/map_05.jpg", "about/map_06.jpg", "about/map_07.jpg", "about/map_08.jpg", "about/map_09.jpg"]
+      - major_tags: [code]
+        tags: [APP_DEVELOPMENT, JavaScript, React_Native, UI_library]
+        description: "Built draggable list view library with React Native."
+        description_ko: "React Native 기반의 draggable list view 라이브러리를 제작했습니다."
+        more:
+          - text: ""
+            images: ["about/draggable_list.gif"]
+            image_orientation: "portrait"
+    side_projects:
+      - major_tags: [code]
+        tags: [GIS_development, Mapbox, JavaScript]
+        description: "Be a speaker at the Open Source Architecture Analyse Semina, presenting &lt;Mapbox GL JS Architecture Analyse&gt;"
+        description_ko: "오픈소스 실행 구조 분석 세미나에서 Mapbox GL JS의 실행 구조를 분석해 발표했습니다."
+        more:
+        - text: "presentation"
+          text_ko: "발표 자료"
+          link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
+          images: ["about/mapbox_gljs_architecture_01.jpg", "about/mapbox_gljs_architecture_02.jpg", "about/mapbox_gljs_architecture_03.jpg"]
+        - text: "script"
+          text_ko: "발표 텍스트"
+          link: "assets/data/mapbox_gljs_architecture_script.pdf"
+      - major_tags: [code, design]
+        tags: [MEDIA_ART, CREATIVE_CODING, UI/UX]
+        description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
+        description_ko: "2022 코리아디자인어워드 커뮤니케이션 디지털 부문에서 상을 수상한 &lt;알파벳 프로젝트&gt에 참여했습니다."
+        more: 
+          - text: "Project Archive"
+            text_ko: "프로젝트 아카이브"
+            images: ["about/hhha_archive.jpg"]
+            link: "https://www.hhha.online"
+          - text: "Main color recognition program using the K-Nearest Neighbor algorithm"
+            text_ko: "K-최근접 이웃 알고리즘을 이용해 이미지의 주요 색상을 찾는 프로그램"
+            images: ["about/hhha_organize_01.jpg", "about/hhha_organize_02.jpg"]
+            link: ""
+          - text: "Visualization of the divorce rate in korea with CSS grid and recursive function"
+            text_ko: "CSS grid와 재귀 함수를 이용해 한국의 이혼율을 시각화하는 웹사이트"
+            images: ["about/hhha_divorce_01.jpg", "about/hhha_divorce_02.jpg", "about/hhha_divorce_03.jpg"]
+            link: ""
+          - text: "Simple visual chat application using Socket.IO."
+            text_ko: "Soket.IO를 이용해 간단한 비주얼 채팅 어플리케이션"
+            images: ["about/hhha_meeting.jpg"]
+            link: ""
+          - text: "Interactive data visualization of website cookies using D3.js"
+            text_ko: "D3.js을 이용해 방문했던 웹사이트의 쿠키를 시각화하는 웹사이트"
+            images: ["about/hhha_journal.jpg"]
+            link: ""
+      - major_tags: [code, design]
+        tags: [WEB_DEVELOPMENT, UI/UX, CSS, JavaScript, WordPress, php]
+        description: "Developed and Designed a self-defense class website for women using WordPress."
+        description_ko: "WordPress를 이용해 여성 호신술 강좌를 위한 웹사이트를 디자인 및 개발했습니다."
+        more:
+          - text: "Website"
+            text_ko: "웹사이트"
+            images: ["about/fffac_01.jpg", "about/fffac_02.jpg", "about/fffac_03.jpg", "about/fffac_04.jpg"]
+            link: "https://fffac.net"
+      - major_tags: [code, design]
+        tags: [WEB_DEVELOPMENT, CREATIVE_CODING, JavaScript, Node.js, p5.js]
+        description: "Built an interactive wallpaper for the queer community that collects tweets with campaign hashtags and visualize, using the Twitter API and p5.js to encourage participation."
+        description_ko: "p5.js과 트위터 API를 이용해 퀴어 커뮤니티를 위한 인터랙티브 담벼락 웹사이트를 만들었습니다. 캠페인 해시태그를 이용한 트윗을 수집하고 수집한 트윗을 벽에 써진 낙서처럼 시각화해 보여줍니다."
+        more:
+          - text: ""
+            images: ["about/homeground_01.jpg", "about/homeground_02.jpg", "about/homeground_03.jpg"] 
+
+  - year: 2020
+
+    works:
+      - major_tags: [code, design]
+        tags: [APP_DEVELOPMENT, JavaScript, React, React_Native, UI_library]
+        description: "Built swipeable tab view library with React Native."
+        description_ko: "React Native를 기반으로 swipeable tab view 라이브러리를 제작했습니다."
+        more:
+          - text: ""
+            images: ["about/swipeable_tab_view.gif"]
+        more:
+          - text: ""
+            images: ["about/swipeable_tab_view.gif"]
+            image_orientation: "portrait"
+      - major_tags: [code, design]
+        tags: [APP_DEVELOPMENT, UI/UX, JavaScript, React, React_Native]
+        description: "Contributed to three major version updates of a React Native-based mobile app  by designing, prototyping, and developing new features."
+        description_ko: "React Native 기반의 모바일 어플리케이션을 디자인, 프로토타이핑, 개발 및 유지보수 하며 3번의 메이저 버전 업그레이드에 기여했습니다."
+      - major_tags: [code]
+        tags: [WEB_DEVELOPMENT, UI/UX, Ruby, JavaScript, CSS]
+        description: "Developed and maintained the web application made with Rails based framework."
+        description_ko: "Rails에 기반한 프레임워크로 제작된 웹 어플리케이션을 개발 및 유지보수했습니다."
+        more: 
+          - text: ""
+            images: ["about/polle_web_01.jpg", "about/polle_web_02.jpg", "about/polle_web_03.jpg", "about/polle_web_04.jpg"]
+            image_orientation: "portrait"
+
+
+
+  - year: ~2019
+
+    works:
+      - major_tags: [design]
+        tags: [EDITORIAL_DESIGN, GRAPHIC_DESIGN]
+        description: "Worked as a graphic design intern, responsible for various editorial and graphical design projects."
+        description_ko: "그래픽 디자인 인턴으로 일하며 편집디자인 및 그래픽디자인을 담당했습니다."
+    side_projects:
+      - major_tags: [code, design]
+        tags: [WEB_DEVELOPMENT, CSS, JavaScript, WordPress, php, UI/UX]
+        description: "Designed and Developed university design graduation artworks archiving website with WordPress."
+        description_ko: "WordPress를 기반으로 디자인 졸업전시 아카이빙 웹사이트를 디자인하고 개발했습니다."
+        more:
+        - text: ""
+          images: ["about/visual_voyage_01.jpg", "about/visual_voyage_02.jpg", "about/visual_voyage_03.jpg"]
+      - major_tags: [code, design]
+        tags: [WEB_DEVELOPMENT, DATA_VISUALIZATION, CREATIVE_CODING, UI/UX, JavaScript, p5.js, Python]
+        description: "Built a data visualization of YouTube’s ‘recommended videos’ with p5.js, Flask and TinyDB. The project crawl the data from the YouTube website through a search keyword input and visualize the results of the videos and their recommendations."
+        description_ko: "p5.js, Flask, TinyDB를 이용해 유튜브의 ‘다음 추천 동영상’을 보여주는 데이터 시각화 웹사이트를 제작했습니다. 이 프로젝트는 주어진 동영상 URL을 바탕으로 검색 결과의 동영상과 그에 따른 추천 동영상들을 크롤링한 후 그 관계를 시각적으로 변환합니다."
+        more:
+          - text: "Website"
+            text_ko: "웹사이트"
+            images: ["about/youtube_next_01.jpg", "about/youtube_next_02.jpg", "about/youtube_next_03.jpg"]
+            link: "http://ec2-3-1-20-212.ap-southeast-1.compute.amazonaws.com"
+      - major_tags: [code, design]
+        tags: [EDITORIAL_DESIGN, GRAPHIC_DESIGN, MEDIA_ART, UI/UX]
+        description: "Created various editorial, graphics and media art pieces during my time at university."
+        description_ko: "대학에서 다양한 편집디자인, 그래픽디자인, 미디어아트 작업을 진행했습니다."
+        more:
+          - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law"
+            text_ko: "서울의 건물들을 시간, 공간, 법이라는 요인에 따라 ‘끼어있다’고 보고 이들을 분류하고 아카이빙해 정리한 책과 영상 작업."
+            images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg", ]
+            link: ""
+          - text: "Created a video artwork with graphical elements inspired from Japanese supermarket leaflets."
+            text_ko: "일본 슈퍼마켓 전단지에서 차용한 그래픽 영상 작업"
+            images: ["about/leaflet_01.jpg"]
+            link: ""
+          - text: "Compared the content of The Economist’s print and digital editions, republishing only the differences between the two editions"
+            text_ko: "잡지 이코노미스트의 모바일 앱 및 인쇄판을 비교해 서로 일치하지 않는 요소만을 남겨낸 작업"
+            images: ["about/cha_01.jpg"]
+            link: ""
 

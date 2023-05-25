@@ -24,6 +24,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  word-break: keep-all;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -326,7 +327,7 @@ table {
 }
 
 
-h5, h6, p, li {
+h5, h6, p, li, span {
   &::selection {
     background: $yellow-color;
   }
@@ -383,4 +384,10 @@ strong {
   &:not(:last-child) {
     margin-bottom: calc(#{$spacing-unit} * 2);
   }
+}
+
+.hidden {
+  visibility: hidden;
+  display: none;
+  opacity: 0;
 }

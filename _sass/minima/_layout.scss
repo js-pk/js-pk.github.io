@@ -52,6 +52,7 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    background-color: #fff;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
@@ -114,6 +115,45 @@
   }
 }
 
+.internationalization {
+  position: fixed;
+  bottom: 16px;
+  left: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    background-color: #fff;
+  }
+
+  button {
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+
+    padding: 2px;
+    margin-left: 8px;
+
+    width: 22px;
+    height: 22px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      border: 1px solid #333;
+    }
+
+    img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+}
 
 
 /**
