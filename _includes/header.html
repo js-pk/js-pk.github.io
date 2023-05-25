@@ -20,28 +20,36 @@
             </svg>
           </span>
         </label>
-
         <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.menu_title  and my_page.url != page.url -%}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
+          {% if page.lang == 'ko' %}
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {% if my_page.lang == 'ko' and page.title != my_page.title %}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {% if my_page.lang == 'en'  and page.title != my_page.title %}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.menu_title | escape }}</a>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
         </div>
       </nav>
     {%- endif -%}
   </div>
 
-    {%- if page.lang == 'en' and page.korean_url != '' -%}
+    {%- if page.lang == 'en' and page.korean_url and page.korean_url != '' -%}
       <div class="internationalization">
         <a href="/{{ page.korean_url }}">한국어로 이 페이지 보기</a>
-        <button onclick="hideInternationalization(this)"><img src="assets/images/close.svg"/></button>
+        <button onclick="hideInternationalization(this)"><img src="/assets/images/close.svg"/></button>
       </div>
-    {% elsif page.lang == 'ko' and page.english_url != '' %}
+    {% elsif page.lang == 'ko' and page.english_url and page.english_url != '' %}
       <div class="internationalization">
         <a href="/{{ page.english_url }}">Read this page in English</a>
-        <button onclick="hideInternationalization(this)"><img src="assets/images/close.svg"/></button>
+        <button onclick="hideInternationalization(this)"><img src="/assets/images/close.svg"/></button>
       </div>
     {% endif %}
 </header>

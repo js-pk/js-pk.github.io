@@ -1,0 +1,17 @@
+---
+title: blog
+menu_title: blog
+layout: default
+robots: noindex
+lang: en
+---
+<link rel="stylesheet" href="/assets/css/blog.css">
+
+
+<ul>
+{% for post in site.posts %}
+    {%- assign date_format = site.minima.date_format | default: "%y/%m/%d" -%}
+    
+    <li><a href="{{post.url}}">{{post.title}} <span>{{ post.date | date: date_format }}</span></a></li>
+{% endfor %}
+</ul>

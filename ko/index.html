@@ -1,9 +1,8 @@
 ---
 title: JS Park - Front-End Developer & Designer
-menu_title: about
 layout: default
-lang: en
-korean_url: about_ko
+lang: ko
+english_url: en
 robots: noindex
 ---
 <!-- temporally no index while development -->
@@ -14,7 +13,6 @@ robots: noindex
 <script src="/lib/matter-js/matter.js"></script>
 <!-- fps optimaztion added. check https://original.donga.com/inside/article/all/82/3589729/1 -->
 <script src="/assets/scripts/mainGraphic.js"></script>
-
 <script>
   function onClickTagButton(element) {
     let tags = document.getElementsByClassName("tag");
@@ -38,19 +36,19 @@ robots: noindex
 {% assign data = site.data.about %}
 <canvas id="canvas"></canvas>
 <div class="block">
-  <h2>{{ data.name }}</h2>
-  <h5>{{ data.job_title }}</h5>
+  <h2>{{ data.name_ko }}</h2>
+  <h5>{{ data.job_title_ko }}</h5>
   <p class="indented" style="margin-top:30px;">
-    {{ data.description }}
+    {{ data.description_ko }}
   </div>
   <div class="block">
     <h4>Experience</h4>
     <ul class="indented">
       {% for experience in data.experiences %}
         <li>
-          {{ experience.title }}<br/>
+          {{ experience.title_ko }}<br/>
           <small class="affiliation indented">
-            <a href="{{ experience.link }}" target="_blank">{{ experience.place }}</a>
+            <a href="{{ experience.link }}" target="_blank">{{ experience.place_ko }}</a>
             {{ experience.period }}</small>
         </li>
       {% endfor %}
@@ -61,8 +59,8 @@ robots: noindex
     <ul class="indented">
       {% for education in data.educations %}
         <li>
-          {{ education.title }}<br/>
-          <small class="affiliation indented">{{ education.institution }} {{ education.period }}</small>
+          {{ education.title_ko }}<br/>
+          <small class="affiliation indented">{{ education.institution_ko }} {{ education.period }}</small>
         </li>
       {% endfor %}
     </ul>
@@ -72,9 +70,9 @@ robots: noindex
     <ul class="indented">
       {% for publication in data.publications %}
         <li>
-          {{ publication.title }}<br/>
+          {{ publication.title_ko }}<br/>
           <small class="affiliation indented">
-            <a href="{{ publication.link }}">{{ publication.description }}</a>
+            <a href="{{ publication.link }}">{{ publication.description_ko }}</a>
           </small>
         </li>
       {% endfor %}
@@ -94,18 +92,18 @@ robots: noindex
               <button class="tag" onclick="onClickTagButton(this);">{{ tag }}</button>
             {% endfor %}
           </div>
-          <li class="description indented">{{ work.description }}</li>
+          <li class="description indented">{{ work.description_ko }}</li>
           {% assign more = work.more %}
           {% for m in more %}
             {% if m.link and m.link != "" %}
-              <li>
-                <small class="affiliation indented">
-                  <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
-                </small>
-              </li>
+            <li>
+              <small class="affiliation indented">
+                <a href="{{m.link}}" target="_blank">{{ m.text_ko }} ↗</a>
+              </small>
+            </li>
             {% else %}
-              {% if m.text and m.text != "" %}
-                <span class="more indented">* {{ m.text }}</span>
+              {% if m.text_ko and m.text_ko != "" %}
+                <span class="more indented">* {{ m.text_ko }}</span>
               {% endif %}
             {% endif %}
             {% if m.images and m.images.size > 0 %}
@@ -118,7 +116,7 @@ robots: noindex
           {% endfor %}
         {% endfor %}
       </ul>
-      
+
       {% if section.side_projects %}
       <h4>side project</h4>
       {% endif %}
@@ -129,18 +127,18 @@ robots: noindex
               <button class="tag" onclick="onClickTagButton(this);">{{ tag }}</button>
             {% endfor %}
           </div>
-          <li class="description indented">{{ side_project.description }}</li>
+          <li class="description indented">{{ side_project.description_ko }}</li>
           {% assign more = side_project.more %}
           {% for m in more %}
             {% if m.link and m.link != "" %}
             <li>
               <small class="affiliation indented">
-                <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
+                <a href="{{m.link}}" target="_blank">{{ m.text_ko }} ↗</a>
               </small>
             </li>
           {% else %}
-            {% if m.text and m.text != "" %}
-              <span class="more indented">* {{ m.text }}</span>
+            {% if m.text_ko and m.text_ko != "" %}
+              <span class="more indented">* {{ m.text_ko }}</span>
             {% endif %}
           {% endif %}
           {% if m.images and m.images.size > 0 %}

@@ -1,7 +1,157 @@
 ---
-title: JS Park
-layout: development
+title: JS Park - Front-End Developer & Designer
+layout: default
+lang: en
+korean_url: ko
 robots: noindex
 ---
+<!-- temporally no index while development -->
 
-<h1>UNDER CONSTRICTION!</h1>
+<link rel="stylesheet" href="/assets/css/index.css">
+<script src="/lib/pathseg/pathseg.js"></script>
+<script src="/lib/poly-decomp/decomp.min.js"></script>
+<script src="/lib/matter-js/matter.js"></script>
+<!-- fps optimaztion added. check https://original.donga.com/inside/article/all/82/3589729/1 -->
+<script src="/assets/scripts/mainGraphic.js"></script>
+
+<script>
+  function onClickTagButton(element) {
+    let tags = document.getElementsByClassName("tag");
+    if (element.classList.contains("highlighted")) {
+      for (t of tags) {
+        t.classList.remove('highlighted')
+      }
+    } else {
+      for (t of tags) {
+        if (element.innerHTML == t.innerHTML) {
+          t.classList.add('highlighted')
+        } else {
+          t.classList.remove('highlighted')
+        }
+      }
+    }    
+  }
+</script>
+
+
+{% assign data = site.data.about %}
+<canvas id="canvas"></canvas>
+<div class="block">
+  <h2>{{ data.name }}</h2>
+  <h5>{{ data.job_title }}</h5>
+  <p class="indented" style="margin-top:30px;">
+    {{ data.description }}
+  </div>
+  <div class="block">
+    <h4>Experience</h4>
+    <ul class="indented">
+      {% for experience in data.experiences %}
+        <li>
+          {{ experience.title }}<br/>
+          <small class="affiliation indented">
+            <a href="{{ experience.link }}" target="_blank">{{ experience.place }}</a>
+            {{ experience.period }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="block">
+    <h4>Education</h4>
+    <ul class="indented">
+      {% for education in data.educations %}
+        <li>
+          {{ education.title }}<br/>
+          <small class="affiliation indented">{{ education.institution }} {{ education.period }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="block">
+    <h4>Publication</h4>
+    <ul class="indented">
+      {% for publication in data.publications %}
+        <li>
+          {{ publication.title }}<br/>
+          <small class="affiliation indented">
+            <a href="{{ publication.link }}">{{ publication.description }}</a>
+          </small>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  {% for section in data.projects %}
+    <div class="block">
+      <h2>{{ section.year }}</h2>
+      {% if section.works %}
+      <h4>work</h4>
+      {% endif %}
+      <ul class="indented">
+        {% for work in section.works %}
+          <div class="buttons-container">
+            {% for tag in work.tags %}
+              <button class="tag" onclick="onClickTagButton(this);">{{ tag }}</button>
+            {% endfor %}
+          </div>
+          <li class="description indented">{{ work.description }}</li>
+          {% assign more = work.more %}
+          {% for m in more %}
+            {% if m.link and m.link != "" %}
+              <li>
+                <small class="affiliation indented">
+                  <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
+                </small>
+              </li>
+            {% else %}
+              {% if m.text and m.text != "" %}
+                <span class="more indented">* {{ m.text }}</span>
+              {% endif %}
+            {% endif %}
+            {% if m.images and m.images.size > 0 %}
+              <div class="indented">
+                {% for image in m.images %}
+                  <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}} target="_blank"><img class="thumbnail {{m.image_orientation}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+                {% endfor %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+      
+      {% if section.side_projects %}
+      <h4>side project</h4>
+      {% endif %}
+      <ul class="indented">
+        {% for side_project in section.side_projects %}
+          <div class="buttons-container">
+            {% for tag in side_project.tags %}
+              <button class="tag" onclick="onClickTagButton(this);">{{ tag }}</button>
+            {% endfor %}
+          </div>
+          <li class="description indented">{{ side_project.description }}</li>
+          {% assign more = side_project.more %}
+          {% for m in more %}
+            {% if m.link and m.link != "" %}
+            <li>
+              <small class="affiliation indented">
+                <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
+              </small>
+            </li>
+          {% else %}
+            {% if m.text and m.text != "" %}
+              <span class="more indented">* {{ m.text }}</span>
+            {% endif %}
+          {% endif %}
+          {% if m.images and m.images.size > 0 %}
+            <div class="indented">
+              {% for image in m.images %}
+                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}"><img class="thumbnail" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+
+  </div>
+{% endfor %}
