@@ -20,10 +20,34 @@
 
 title: JS Park
 email: contact@jspk.site
-description: >- # this means to ignore newlines until "baseurl:"
-  JS Park - Front-end Developer & Designer
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jspk.site" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jspk.site" # the base hostname & protocol for your site, e.g. http://example.com
+
+# jekyll-seo-tag plugin
+
+description: >- # this means to ignore newlines until "baseurl:"
+  JS Park - Front-End Developer & Designer
+tagline: "JS Park - Front-End Developer & Designer"
+author: JS Park
+twitter:
+  card: summary
+logo: 
+social:
+  name: JS Park
+  links:
+    - https://instagram.com/js___pk
+    - https://www.linkedin.com/in/jspk/
+    - https://github.com/js-pk
+defaults: 
+  - scope:
+      path: ""
+    values:
+      image:
+        path: "/assets/images/thumbnail.jpg"
+        height: 1009
+        width: 1200
+        alt: "jspk site thumbnail"
 
 github_username:  js-pk
 instagram_username: js___pk
@@ -35,6 +59,7 @@ google_analytics: "G-S2J8KED61T"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # defaults:
 #   - scope:
