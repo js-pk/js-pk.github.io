@@ -1,6 +1,5 @@
 ---
 title: JS Park - Front-End Developer & Designer
-menu_title: about
 layout: default
 lang: en
 korean_url: ko
@@ -97,16 +96,15 @@ robots: noindex
           <li class="description indented">{{ work.description }}</li>
           {% assign more = work.more %}
           {% for m in more %}
+          {% if m.text and m.text != "" %}
+            <span class="more indented">* {{ m.text }}</span>
+          {% endif %}
             {% if m.link and m.link != "" %}
-              <li>
+            <li>
                 <small class="affiliation indented">
-                  <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
+                <a href="{{m.link}}" target="_blank">{{ m.link_text }} ↗</a>
                 </small>
-              </li>
-            {% else %}
-              {% if m.text and m.text != "" %}
-                <span class="more indented">* {{ m.text }}</span>
-              {% endif %}
+            </li>
             {% endif %}
             {% if m.images and m.images.size > 0 %}
               <div class="indented">
@@ -132,17 +130,16 @@ robots: noindex
           <li class="description indented">{{ side_project.description }}</li>
           {% assign more = side_project.more %}
           {% for m in more %}
+          {% if m.text and m.text != "" %}
+            <span class="more indented">* {{ m.text }}</span>
+          {% endif %}
             {% if m.link and m.link != "" %}
             <li>
-              <small class="affiliation indented">
-                <a href="{{m.link}}" target="_blank">{{ m.text }} ↗</a>
-              </small>
+                <small class="affiliation indented">
+                <a href="{{m.link}}" target="_blank">{{ m.link_text }} ↗</a>
+                </small>
             </li>
-          {% else %}
-            {% if m.text and m.text != "" %}
-              <span class="more indented">* {{ m.text }}</span>
             {% endif %}
-          {% endif %}
           {% if m.images and m.images.size > 0 %}
             <div class="indented">
               {% for image in m.images %}

@@ -2,18 +2,20 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>Feel free to get in touch!<br/>I'd love to chat with you.</h4>
+        {% if page.lang == 'ko' %}
+          <h4 style="font-style: normal;">궁금하신 점이 있다면<br/>이쪽으로 편하게 연락주세요!</h4>
+        {% else %}
+          <h4>Feel free to get in touch!<br/>I'd love to chat with you.</h4>
+        {% endif %}
       </div>
 
       <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
-
     </div>
-
+    <small class="copyright">Copyright © JUNGSUE PARK All Rights Reserved.</small>
   </div>
 
 </footer>

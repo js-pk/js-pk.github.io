@@ -107,8 +107,8 @@ projects:
         description: "Developed a portfolio website for an architecture company with Cargo web builder."
         description_ko: "Cargo 웹빌더를 이용해 건축사무소를 위한 포트폴리오 웹사이트를 개발했습니다."
         more:
-          - text: "Website"
-            text_ko: "웹사이트"
+          - link_text: "Website"
+            link_text_ko: "웹사이트"
             images: ["about/biroso_samuso_01.jpg", "about/biroso_samuso_02.jpg"]
             link: "https://samusob.co.kr"
       - major_tags: [code]
@@ -118,8 +118,8 @@ projects:
         more:
           - text: "Built sorting algorithms, dynamic array data structure, hash functions, and an ORM framework for MySQL using the C programming language."
             text_ko: "C언어를 이용한 정렬 알고리즘, dynamic array, 해시, MySQL ORM 프레임워크"
-          - text: "code"
-            text_ko: "코드"
+            link_text: "code"
+            link_text_ko: "코드"
             link: "https://github.com/js-pk/c-study"
 
         
@@ -151,20 +151,20 @@ projects:
         description: "Be a speaker at the Open Source Architecture Analyse Semina, presenting &lt;Mapbox GL JS Architecture Analyse&gt;"
         description_ko: "오픈소스 실행 구조 분석 세미나에서 Mapbox GL JS의 실행 구조를 분석해 발표했습니다."
         more:
-        - text: "presentation"
-          text_ko: "발표 자료"
+        - link_text: "presentation"
+          link_text_ko: "발표 자료"
           link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
           images: ["about/mapbox_gljs_architecture_01.jpg", "about/mapbox_gljs_architecture_02.jpg", "about/mapbox_gljs_architecture_03.jpg"]
-        - text: "script"
-          text_ko: "발표 텍스트"
+        - link_text: "script"
+          link_text_ko: "발표 텍스트"
           link: "assets/data/mapbox_gljs_architecture_script.pdf"
       - major_tags: [code, design]
         tags: [MEDIA_ART, CREATIVE_CODING, UI/UX]
         description: "Parcitipated in the &lt;Alphabet Project&gt; which received award in the Communication Design - Digital category at Korea Design Awards 2022."
         description_ko: "2022 코리아디자인어워드 커뮤니케이션 디지털 부문에서 상을 수상한 &lt;알파벳 프로젝트&gt에 참여했습니다."
         more: 
-          - text: "Project Archive"
-            text_ko: "프로젝트 아카이브"
+          - link_text: "Project Archive"
+            link_text_ko: "프로젝트 아카이브"
             images: ["about/hhha_archive.jpg"]
             link: "https://www.hhha.online"
           - text: "Main color recognition program using the K-Nearest Neighbor algorithm"
@@ -188,8 +188,8 @@ projects:
         description: "Developed and Designed a self-defense class website for women using WordPress."
         description_ko: "WordPress를 이용해 여성 호신술 강좌를 위한 웹사이트를 디자인 및 개발했습니다."
         more:
-          - text: "Website"
-            text_ko: "웹사이트"
+          - link_text: "Website"
+            link_text_ko: "웹사이트"
             images: ["about/fffac_01.jpg", "about/fffac_02.jpg", "about/fffac_03.jpg", "about/fffac_04.jpg"]
             link: "https://fffac.net"
       - major_tags: [code, design]
@@ -197,8 +197,10 @@ projects:
         description: "Built an interactive wallpaper for the queer community that collects tweets with campaign hashtags and visualize, using the Twitter API and p5.js to encourage participation."
         description_ko: "p5.js과 트위터 API를 이용해 퀴어 커뮤니티를 위한 인터랙티브 담벼락 웹사이트를 만들었습니다. 캠페인 해시태그를 이용한 트윗을 수집하고 수집한 트윗을 벽에 써진 낙서처럼 시각화해 보여줍니다."
         more:
-          - text: ""
+          - link_text: "Website"
+            link_text_ko: "웹사이트"
             images: ["about/homeground_01.jpg", "about/homeground_02.jpg", "about/homeground_03.jpg"] 
+            link: "http://homeground.jspk.site"
 
   - year: 2020
 
@@ -226,6 +228,9 @@ projects:
           - text: ""
             images: ["about/polle_web_01.jpg", "about/polle_web_02.jpg", "about/polle_web_03.jpg", "about/polle_web_04.jpg"]
             image_orientation: "portrait"
+            link_text: "Website"
+            link_text_ko: "웹사이트"
+            link: "https://polle.com"
 
 
 
@@ -249,10 +254,10 @@ projects:
         description: "Built a data visualization of YouTube’s ‘recommended videos’ with p5.js, Flask and TinyDB. The project crawl the data from the YouTube website through a search keyword input and visualize the results of the videos and their recommendations."
         description_ko: "p5.js, Flask, TinyDB를 이용해 유튜브의 ‘다음 추천 동영상’을 보여주는 데이터 시각화 웹사이트를 제작했습니다. 이 프로젝트는 주어진 동영상 URL을 바탕으로 검색 결과의 동영상과 그에 따른 추천 동영상들을 크롤링한 후 그 관계를 시각적으로 변환합니다."
         more:
-          - text: "Website"
-            text_ko: "웹사이트"
+          - link_text: "Website"
+            link_text_ko: "웹사이트"
             images: ["about/youtube_next_01.jpg", "about/youtube_next_02.jpg", "about/youtube_next_03.jpg"]
-            link: "http://ec2-3-1-20-212.ap-southeast-1.compute.amazonaws.com"
+            link: "youtube.jspk.site"
       - major_tags: [code, design]
         tags: [EDITORIAL_DESIGN, GRAPHIC_DESIGN, MEDIA_ART, UI/UX]
         description: "Created various editorial, graphics and media art pieces during my time at university."
@@ -260,14 +265,24 @@ projects:
         more:
           - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law"
             text_ko: "서울의 건물들을 시간, 공간, 법이라는 요인에 따라 ‘끼어있다’고 보고 이들을 분류하고 아카이빙해 정리한 책과 영상 작업."
-            images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg", ]
-            link: ""
+            images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg"]
+            link_text: "Video"
+            link_text_ko: "비디오"
+            link: "https://youtu.be/w2EBRdIs0Zo"
           - text: "Created a video artwork with graphical elements inspired from Japanese supermarket leaflets."
             text_ko: "일본 슈퍼마켓 전단지에서 차용한 그래픽 영상 작업"
             images: ["about/leaflet_01.jpg"]
-            link: ""
+            link_text: "Video"
+            link_text_ko: "비디오"
+            link: "https://youtu.be/edHgO3brYpo"
           - text: "Compared the content of The Economist’s print and digital editions, republishing only the differences between the two editions"
             text_ko: "잡지 이코노미스트의 모바일 앱 및 인쇄판을 비교해 서로 일치하지 않는 요소만을 남겨낸 작업"
             images: ["about/cha_01.jpg"]
             link: ""
+          - text: "Made a Korean lettering archiving site which the user can combine letters to create their own letter."
+            text_ko: "사용자가 글자 요소를 조합해 새로운 글자를 만들 수 있는 한글 레터링 아카이빙 사이트"
+            images: ["about/compressed_letter_01.jpg", "about/compressed_letter_02.jpg", "about/compressed_letter_03.jpg"]
+            link_text: "Website"
+            link_text_ko: "웹사이트"
+            link: "http://compressed.jspk.site"
 

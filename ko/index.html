@@ -95,16 +95,15 @@ robots: noindex
           <li class="description indented">{{ work.description_ko }}</li>
           {% assign more = work.more %}
           {% for m in more %}
+          {% if m.text and m.text != "" %}
+            <span class="more indented">* {{ m.text_ko }}</span>
+          {% endif %}
             {% if m.link and m.link != "" %}
             <li>
               <small class="affiliation indented">
-                <a href="{{m.link}}" target="_blank">{{ m.text_ko }} ↗</a>
+                <a href="{{m.link}}" target="_blank">{{ m.link_text_ko }} ↗</a>
               </small>
             </li>
-            {% else %}
-              {% if m.text_ko and m.text_ko != "" %}
-                <span class="more indented">* {{ m.text_ko }}</span>
-              {% endif %}
             {% endif %}
             {% if m.images and m.images.size > 0 %}
               <div class="indented">
@@ -130,17 +129,16 @@ robots: noindex
           <li class="description indented">{{ side_project.description_ko }}</li>
           {% assign more = side_project.more %}
           {% for m in more %}
+          {% if m.text and m.text != "" %}
+            <span class="more indented">* {{ m.text_ko }}</span>
+          {% endif %}
             {% if m.link and m.link != "" %}
             <li>
               <small class="affiliation indented">
-                <a href="{{m.link}}" target="_blank">{{ m.text_ko }} ↗</a>
+                <a href="{{m.link}}" target="_blank">{{ m.link_text_ko }} ↗</a>
               </small>
             </li>
-          {% else %}
-            {% if m.text_ko and m.text_ko != "" %}
-              <span class="more indented">* {{ m.text_ko }}</span>
             {% endif %}
-          {% endif %}
           {% if m.images and m.images.size > 0 %}
             <div class="indented">
               {% for image in m.images %}
