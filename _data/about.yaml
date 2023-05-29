@@ -79,15 +79,50 @@ projects:
         description_ko: "유저 데이터베이스와 그래픽 소프트웨어를 연동해 자동화된 개인 맞춤 굿즈 제작 시스템을 구축했습니다."
         more:
           - text: ""
-            images: ["about/gift_generation_01.jpg", "about/gift_generation_02.jpg", "about/gift_generation_03.jpg", "about/gift_generation_04.jpg", "about/gift_generation_05.jpg", "about/gift_generation_06.jpg",]
+            images: 
+              - path: "about/gift_generation_01.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+              - path: "about/gift_generation_02.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+              - path: "about/gift_generation_03.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+              - path: "about/gift_generation_04.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+              - path: "about/gift_generation_05.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+              - path: "about/gift_generation_06.jpg"
+                alt: "Photo of the Polle gift set"
+                alt_ko: "뽈레 기프트 사진"
+
       - major_tags: [code, design]
         tags: [APP_DEVELOPMENT, UI/UX, JavaScript, React_Native]
         description: "Contributed to three major version updates of a React Native-based mobile app  by designing, prototyping, and developing new features."
         description_ko: "React Native 기반의 모바일 어플리케이션을 디자인, 프로토타이핑, 개발 및 유지보수 하며 3번의 메이저 버전 업그레이드에 기여했습니다."
         more:
           - text: ""
-            images: ["about/polle_app_01.jpg", "about/polle_app_02.jpg", "about/polle_app_03.jpg", "about/polle_app_04.jpg"]
+            images: 
+              - path: "about/polle_app_01.jpg"
+                alt: "Main view of Polle application" 
+                alt_ko: "뽈레 앱의 메인 화면"
+              - path: "about/polle_app_02.jpg"
+                alt: "Recently popular places view of Polle application"
+                alt_ko: "뽈레 앱의 요즘 뜨는 장소 화면"
+              - path: "about/polle_app_03.jpg"
+                alt: "Search result view of Polle application"
+                alt_ko: "뽈레 앱의 검색 결과 화면"
+              - path: "about/polle_app_04.jpg"
+                alt: "Restaurant ranking view of Polle application"
+                alt_ko: "뽈레 앱의 음식점 랭킹 화면"
             image_orientation: "portrait"
+            link_text: "App Store"
+            link_text_ko: "앱스토어"
+            link: "https://apps.apple.com/kr/app/뽈레-polle/id1025468765"
+
     side_projects:
       - major_tags: [code, design]
         tags: [MEDIA_ART, ARDUINO, WebGL, JavaScript]
@@ -96,12 +131,34 @@ projects:
         more:
           - text: "Book unrecommendation for children with arduino, thermal printer and web."
             text_ko: "아두이노와 열전사 프린터, 웹을 이용한 어린이를 위한 비권장도서 소개"
-            images: ["about/books_unrecommended_01.jpg", "about/books_unrecommended_02.jpg", "about/books_unrecommended_03.jpg", "about/books_unrecommended_04.jpg", "about/books_unrecommended_05.jpg"]
-            link: ""
+            images: 
+              - path: "about/books_unrecommended_01.jpg"
+                alt: "Child interacting with the artwork, looking the screen with book description"
+                alt_ko: "작업을 감상하는 어린이, 도서 설명이 나오는 스크린을 바라보고 있다"
+              - path: "about/books_unrecommended_02.jpg"
+                alt: "Full shot of the personal part of the artwork"
+                alt_ko: "개인 작업의 전체적인 모습"
+              - path: "about/books_unrecommended_03.jpg"
+                alt: "Wide angle shot of the group artwork installation"
+                alt_ko: "전체 그룹 작업 설치를 조망한 모습"
+              - path: "about/books_unrecommended_04.jpg"
+                alt: "Long exposure wide shot of the group artwork installation with people"
+                alt_ko: "전체 그룹 작업을 감상하는 사람들을 장노출로 찍은 사진"
+              - path: "about/books_unrecommended_05.jpg"
+                alt: "Photo of the artwork instruction installed at floor"
+                alt_ko: "바닥에 설치된 작업 설명문을 찍은 사진"
+            link_text: "Website"
+            link_text_ko: "웹사이트"
+            link: "http://books.jspk.site"
           - text: "Graphic motivated by the advertisement leaflet of toy for children."
             text_ko: "어린이 장난감 광고에서 차용한 그래픽 작업"
-            images: ["about/hhha_yellow.png"]
-            link: ""
+            images: 
+              - path: "about/hhha_yellow.png"
+                alt: "Screenshot of the artwork"
+                alt_ko: "작업 스크린샷"
+            link_text: "Website"
+            link_text_ko: "웹사이트"
+            link: "http://yellow.jspk.site"
       - major_tags: [code]
         tags: [WEB_DEVELOPMENT, JavaScript, CSS]
         description: "Developed a portfolio website for an architecture company with Cargo web builder."
@@ -109,10 +166,16 @@ projects:
         more:
           - link_text: "Website"
             link_text_ko: "웹사이트"
-            images: ["about/biroso_samuso_01.jpg", "about/biroso_samuso_02.jpg"]
+            images: 
+              - path: "about/biroso_samuso_01.jpg"
+                alt: "Desktop view of the portfolio website"
+                alt_ko: "포트폴리오 웹사이트에 데스크탑 화면"
+              - path: "about/biroso_samuso_02.jpg"
+                alt: "mobile view of the portfolio website"
+                alt_ko: "포트폴리오 웹사이트의 모바일 화면"
             link: "https://samusob.co.kr"
       - major_tags: [code]
-        tags: [STUDY, COMPUTER_SCIENCE, ALGORITHM, MATH, C]
+        tags: [STUDY, COMPUTER_SCIENCE, Algorithm, Math, C]
         description: "Studied C Language, Data Structure, Algorithm, Linear Algibra, Computer Graphics and Network System."
         description_ko: "C언어, 자료구조, 알고리즘, 선형대수, 컴퓨터 그래픽스 및 네트워크 시스템을 공부했습니다."
         more:
@@ -136,14 +199,44 @@ projects:
         description_ko: "한국 공간정보 데이터베이스와 OpenStreetMap 로우데이터를 이용해 Mapbox GL JS 렌더러에 호환되는 커스텀 벡터 지도 타일을 제작했습니다."
         more:
           - text: ""
-            images: ["about/map_01.jpg", "about/map_02.jpg", "about/map_03.jpg", "about/map_04.jpg", "about/map_05.jpg", "about/map_06.jpg", "about/map_07.jpg", "about/map_08.jpg", "about/map_09.jpg"]
+            images: 
+            - path: "about/map_01.jpg"
+              alt: "Captured a low-zoom screenshot of the map"
+              alt_ko: "낮은 줌 레벨의 지도 스크린샷"
+            - path: "about/map_02.jpg"
+              alt: "Captured a mid-zoom screenshot of the map"
+              alt_ko: "중간 줌 레벨의 지도 스크린샷"
+            - path: "about/map_03.jpg"
+              alt: "Captured a high-zoom screenshot of the map"
+              alt_ko: "높은 줌 레벨의 지도 스크린샷"
+            - path: "about/map_04.jpg"
+              alt: "Captured a max-zoom screenshot of the map"
+              alt_ko: "최고 줌 레벨의 지도 스크린샷"
+            - path: "about/map_05.jpg"
+              alt: "Screenshot of the map focusing on road rendering"
+              alt_ko: "도로 렌더링 위주로 찍은 지도 스크린샷"
+            - path: "about/map_06.jpg"
+              alt: "Black and white dotted version of the map"
+              alt_ko: "흑백 도트 버젼의 지도 스크린샷"
+            - path: "about/map_07.jpg"
+              alt: "Map rendered with Cairo"
+              alt_ko: "Cairo로 렌더링한 지도 스크린샷"
+            - path: "about/map_08.jpg"
+              alt: "Map styled focusing on the road hierarchy"
+              alt_ko: "도로 위계에 집중한 지도 스타일링"
+            - path: "about/map_09.jpg"
+              alt: "Visualization of the polygon crop algorithm"
+              alt_ko: "폴리곤 자르기 알고리즘을 보여주는 이미지"
       - major_tags: [code]
-        tags: [APP_DEVELOPMENT, JavaScript, React_Native, UI_library]
+        tags: [APP_DEVELOPMENT, JavaScript, React_Native, UI_Library]
         description: "Built draggable list view library with React Native."
         description_ko: "React Native 기반의 draggable list view 라이브러리를 제작했습니다."
         more:
           - text: ""
-            images: ["about/draggable_list.gif"]
+            images: 
+              - path: "about/draggable_list.gif"
+                alt: "Animated gif of draggable list view"
+                alt_ko: "Draggable list view의 동작을 보여주는 영상"
             image_orientation: "portrait"
     side_projects:
       - major_tags: [code]
@@ -154,7 +247,16 @@ projects:
         - link_text: "presentation"
           link_text_ko: "발표 자료"
           link: "assets/data/mapbox_gljs_architecture_ppt.pdf"
-          images: ["about/mapbox_gljs_architecture_01.jpg", "about/mapbox_gljs_architecture_02.jpg", "about/mapbox_gljs_architecture_03.jpg"]
+          images: 
+            - path: "about/mapbox_gljs_architecture_01.jpg"
+              alt: "PPT screenshot demonstrating Vector tile and Style architecture"
+              alt_ko: "벡터 타일과 스타일 구조를 설명하는 PPT 스크린샷"
+            - path: "about/mapbox_gljs_architecture_02.jpg"
+              alt: "PPT screenshot demonstrating how to generate tile with style, source and data"
+              alt_ko: "스타일, 소스, 데이터로부터 타일을 제작하는 과정을 설명한 PPT 스크린샷"
+            - path: "about/mapbox_gljs_architecture_03.jpg"
+              alt: "PPT screenshot demonstrating how map rendered through webGL canvas"
+              alt_ko: "지도가 WebGL 캔버스를 통해 렌더링되는 과정을 설명한 PPT 스크린샷"
         - link_text: "script"
           link_text_ko: "발표 텍스트"
           link: "assets/data/mapbox_gljs_architecture_script.pdf"
@@ -165,23 +267,47 @@ projects:
         more: 
           - link_text: "Project Archive"
             link_text_ko: "프로젝트 아카이브"
-            images: ["about/hhha_archive.jpg"]
+            images: 
+              - path: "about/hhha_archive.jpg"
+                alt: "Screenshot of HHHA archive site"
+                alt_ko: "HHHA 아카이브 사이트 스크린샷"
             link: "https://www.hhha.online"
           - text: "Main color recognition program using the K-Nearest Neighbor algorithm"
             text_ko: "K-최근접 이웃 알고리즘을 이용해 이미지의 주요 색상을 찾는 프로그램"
-            images: ["about/hhha_organize_01.jpg", "about/hhha_organize_02.jpg"]
+            images: 
+              - path: "about/hhha_organize_01.jpg"
+                alt: "Screenshot of the project visualizing the image's main color"
+                alt_ko: "이미지의 주요 색상을 시각화해서 보여주는 프로그램의 스크린샷"
+              - path: "about/hhha_organize_02.jpg"
+                alt: "Screenshot of the project visualizing the image's main color"
+                alt_ko: "이미지의 주요 색상을 시각화해서 보여주는 프로그램의 스크린샷"
             link: ""
           - text: "Visualization of the divorce rate in korea with CSS grid and recursive function"
             text_ko: "CSS grid와 재귀 함수를 이용해 한국의 이혼율을 시각화하는 웹사이트"
-            images: ["about/hhha_divorce_01.jpg", "about/hhha_divorce_02.jpg", "about/hhha_divorce_03.jpg"]
+            images: 
+              - path: "about/hhha_divorce_01.jpg"
+                alt: "Visualization of the families in Korea using family emoji. Divorced couples are highlighted while others are black and white"
+                alt_ko: "가족 이모지를 이용한 한국의 가정 분포 시각화. 한부모 가정은 컬러 로, 다른 가정은 흑백로 표현되어있다"
+              - path: "about/hhha_divorce_02.jpg"
+                alt: "Visualization of the families in Korea using family emoji. Divorced couples are highlighted while others are black and white"
+                alt_ko: "가족 이모지를 이용한 한국의 가정 분포 시각화. 한부모 가정은 컬러 로, 다른 가정은 흑백로 표현되어있다"
+              - path: "about/hhha_divorce_03.jpg"
+                alt: "Visualization of the families in Korea using family emoji. Divorced couples are highlighted while others are black and white"
+                alt_ko: "가족 이모지를 이용한 한국의 가정 분포 시각화. 한부모 가정은 컬러 로, 다른 가정은 흑백로 표현되어있다"
             link: ""
           - text: "Simple visual chat application using Socket.IO."
             text_ko: "Soket.IO를 이용해 간단한 비주얼 채팅 어플리케이션"
-            images: ["about/hhha_meeting.jpg"]
+            images: 
+              - path: "about/hhha_meeting.jpg"
+                alt: "Screenshot of the visual chat project"
+                alt_ko: "비주얼 채팅 프로그램의 스크린샷"
             link: ""
           - text: "Interactive data visualization of website cookies using D3.js"
             text_ko: "D3.js을 이용해 방문했던 웹사이트의 쿠키를 시각화하는 웹사이트"
-            images: ["about/hhha_journal.jpg"]
+            images: 
+              - path: "about/hhha_journal.jpg"
+                alt: "Screenshot of the graph visualizing cookies"
+                alt_ko: "쿠키를 시각화하는 그래프의 스크린샷"
             link: ""
       - major_tags: [code, design]
         tags: [WEB_DEVELOPMENT, UI/UX, CSS, JavaScript, WordPress, php]
@@ -190,7 +316,19 @@ projects:
         more:
           - link_text: "Website"
             link_text_ko: "웹사이트"
-            images: ["about/fffac_01.jpg", "about/fffac_02.jpg", "about/fffac_03.jpg", "about/fffac_04.jpg"]
+            images: 
+              - path: "about/fffac_01.jpg"
+                alt: "Main view of the website"
+                alt_ko: "웹사이트의 메인 화면"
+              - path: "about/fffac_02.jpg"
+                alt: "Review section of the website"
+                alt_ko: "웹사이트의 리뷰 화면"
+              - path: "about/fffac_03.jpg"
+                alt: "Program page of the website"
+                alt_ko: "웹사이트의 프로그램 페이지"
+              - path: "about/fffac_04.jpg"
+                alt: "Mobile view of the program page"
+                alt_ko: "프로그램 페이지의 모바일 뷰"
             link: "https://fffac.net"
       - major_tags: [code, design]
         tags: [WEB_DEVELOPMENT, CREATIVE_CODING, JavaScript, Node.js, p5.js]
@@ -199,19 +337,25 @@ projects:
         more:
           - link_text: "Website"
             link_text_ko: "웹사이트"
-            images: ["about/homeground_01.jpg", "about/homeground_02.jpg", "about/homeground_03.jpg"] 
+            images: 
+              - path: "about/homeground_01.jpg"
+                alt: "Screenshot of the wall with tweets"
+                alt_ko: "트윗이 적혀진 담벼락 스크린샷"
+              - path: "about/homeground_02.jpg"
+                alt: "Screenshot of the wall with tweets"
+                alt_ko: "트윗이 적혀진 담벼락 스크린샷"
+              - path: "about/homeground_03.jpg"
+                alt: "Screenshot of Twitter campagin hashtag search result"
+                alt_ko: "캠페인 해시태그의 트위터 검색결과"
             link: "http://homeground.jspk.site"
 
   - year: 2020
 
     works:
       - major_tags: [code, design]
-        tags: [APP_DEVELOPMENT, JavaScript, React, React_Native, UI_library]
+        tags: [APP_DEVELOPMENT, JavaScript, React, React_Native, UI_Library]
         description: "Built swipeable tab view library with React Native."
         description_ko: "React Native를 기반으로 swipeable tab view 라이브러리를 제작했습니다."
-        more:
-          - text: ""
-            images: ["about/swipeable_tab_view.gif"]
         more:
           - text: ""
             images: ["about/swipeable_tab_view.gif"]
@@ -226,12 +370,23 @@ projects:
         description_ko: "Rails에 기반한 프레임워크로 제작된 웹 어플리케이션을 개발 및 유지보수했습니다."
         more: 
           - text: ""
-            images: ["about/polle_web_01.jpg", "about/polle_web_02.jpg", "about/polle_web_03.jpg", "about/polle_web_04.jpg"]
+            images: 
+              - path: "about/polle_web_01.jpg"
+                alt: "Main view of Polle web"
+                alt_ko: "뽈레 웹의 메인 화면"
+              - path: "about/polle_web_02.jpg"
+                alt: "Mobile app feature introduction view"
+                alt_ko: "모바일 앱 기능 설명 페이지"
+              - path: "about/polle_web_03.jpg"
+                alt: "Place page of Polle web"
+                alt_ko: "뽈레 웹의 장소 페이지"
+              - path: "about/polle_web_04.jpg"
+                alt: "Timeline page of Polle web"
+                alt_ko: "뽈레 웹의 타임라인 페이지"
             image_orientation: "portrait"
             link_text: "Website"
             link_text_ko: "웹사이트"
             link: "https://polle.com"
-
 
 
   - year: ~2019
@@ -248,7 +403,16 @@ projects:
         description_ko: "WordPress를 기반으로 디자인 졸업전시 아카이빙 웹사이트를 디자인하고 개발했습니다."
         more:
         - text: ""
-          images: ["about/visual_voyage_01.jpg", "about/visual_voyage_02.jpg", "about/visual_voyage_03.jpg"]
+          images: 
+            - path: "about/visual_voyage_01.jpg"
+              alt: "Main page of the archive site"
+              alt_ko: "아카이브 사이트의 메인 화면"
+            - path: "about/visual_voyage_02.jpg"
+              alt: "Personal artwork page of the site"
+              alt_ko: "개인 작업 페이지"
+            - paht: about/visual_voyage_03.jpg"
+              alt: "Personal artwork page of the site"
+              alt_ko: "개인 작업 페이지"
       - major_tags: [code, design]
         tags: [WEB_DEVELOPMENT, DATA_VISUALIZATION, CREATIVE_CODING, UI/UX, JavaScript, p5.js, Python]
         description: "Built a data visualization of YouTube’s ‘recommended videos’ with p5.js, Flask and TinyDB. The project crawl the data from the YouTube website through a search keyword input and visualize the results of the videos and their recommendations."
@@ -256,7 +420,16 @@ projects:
         more:
           - link_text: "Website"
             link_text_ko: "웹사이트"
-            images: ["about/youtube_next_01.jpg", "about/youtube_next_02.jpg", "about/youtube_next_03.jpg"]
+            images: 
+              - path: "about/youtube_next_01.jpg"
+                alt: "Photo of the installed artwork"
+                alt_ko: "설치된 작업 사진"
+              - path: "about/youtube_next_02.jpg"
+                alt: "Main view of the project"
+                alt_ko: "프로젝트의 메인 화면"
+              - path: "about/youtube_next_03.jpg"
+                alt: "More information view of the project"
+                alt_ko: "프로젝트의 더보기 화면"
             link: "youtube.jspk.site"
       - major_tags: [code, design]
         tags: [EDITORIAL_DESIGN, GRAPHIC_DESIGN, MEDIA_ART, UI/UX]
@@ -265,23 +438,50 @@ projects:
         more:
           - text: "Archived the buildings located in Seoul and organized them by various factors such as age, space and law"
             text_ko: "서울의 건물들을 시간, 공간, 법이라는 요인에 따라 ‘끼어있다’고 보고 이들을 분류하고 아카이빙해 정리한 책과 영상 작업."
-            images: ["about/buildings_01.jpg", "about/buildings_02.jpg", "about/buildings_03.jpg", "about/buildings_04.jpg"]
+            images: 
+              - path: "about/buildings_01.jpg"
+                alt: "Photo of the book archiving the buildings"
+                alt_ko: "빌딩들을 아카이빙한 책 사진"
+              - path: "about/buildings_02.jpg"
+                alt: "Photo of the book archiving the buildings"
+                alt_ko: "빌딩들을 아카이빙한 책 사진"
+              - path: "about/buildings_03.jpg"
+                alt: "Screenshot of the video archiving the buildings"
+                alt_ko: "빌딩들을 아카이빙한 비디오 스크린샷"
+              - path: "about/buildings_04.jpg"
+                alt: "Screenshot of the video archiving the buildings"
+                alt_ko: "빌딩들을 아카이빙한 비디오 스크린샷"
             link_text: "Video"
             link_text_ko: "비디오"
             link: "https://youtu.be/w2EBRdIs0Zo"
           - text: "Created a video artwork with graphical elements inspired from Japanese supermarket leaflets."
             text_ko: "일본 슈퍼마켓 전단지에서 차용한 그래픽 영상 작업"
-            images: ["about/leaflet_01.jpg"]
+            images: 
+              - path: "about/leaflet_01.jpg"
+                alt: "Screenshot of the video"
+                alt_ko: "비디오 스크린샷"
             link_text: "Video"
             link_text_ko: "비디오"
             link: "https://youtu.be/edHgO3brYpo"
           - text: "Compared the content of The Economist’s print and digital editions, republishing only the differences between the two editions"
             text_ko: "잡지 이코노미스트의 모바일 앱 및 인쇄판을 비교해 서로 일치하지 않는 요소만을 남겨낸 작업"
-            images: ["about/cha_01.jpg"]
+            images: 
+              - path: "about/cha_01.jpg"
+                alt: "Photo of the application and the book"
+                alt_ko: "책과 앱을 배치한 사진"
             link: ""
           - text: "Made a Korean lettering archiving site which the user can combine letters to create their own letter."
             text_ko: "사용자가 글자 요소를 조합해 새로운 글자를 만들 수 있는 한글 레터링 아카이빙 사이트"
-            images: ["about/compressed_letter_01.jpg", "about/compressed_letter_02.jpg", "about/compressed_letter_03.jpg"]
+            images: 
+              - path: "about/compressed_letter_01.jpg"
+                alt: "Landing page of the project"
+                alt_ko: "프로젝트 랜딩 페이지"
+              - path: "about/compressed_letter_02.jpg"
+                alt: "Page to let user combine letters by mouse movement"
+                alt_ko: "마우스를 이용해 글자를 조합할 수 있는 페이지"
+              - path: "about/compressed_letter_03.jpg"
+                alt: "Gallery page of the archived letters"
+                alt_ko: "아카이빙된 글자 갤러리 페이지"
             link_text: "Website"
             link_text_ko: "웹사이트"
             link: "http://compressed.jspk.site"

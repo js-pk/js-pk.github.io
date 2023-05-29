@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Theory of minimum"
+title:  "Test"
 date:   2023-03-02 00:00:38 +0900
 categories: jekyll update
 ---

@@ -1,6 +1,7 @@
 ---
 title: JS Park - Front-End Developer & Designer
 layout: default
+menu_title: about
 lang: ko
 english_url: en
 ---
@@ -71,7 +72,7 @@ english_url: en
         <li>
           {{ publication.title_ko }}<br/>
           <small class="affiliation indented">
-            <a href="{{ publication.link }}">{{ publication.description_ko }}</a>
+            <a href="{{ publication.link }}" target="_blank">{{ publication.description_ko }}</a>
           </small>
         </li>
       {% endfor %}
@@ -107,7 +108,7 @@ english_url: en
             {% if m.images and m.images.size > 0 %}
               <div class="indented">
                 {% for image in m.images %}
-                  <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}} target="_blank"><img class="thumbnail {{m.image_orientation}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
                 {% endfor %}
               </div>
             {% endif %}
@@ -141,7 +142,7 @@ english_url: en
           {% if m.images and m.images.size > 0 %}
             <div class="indented">
               {% for image in m.images %}
-                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}"><img class="thumbnail" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+              <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
               {% endfor %}
             </div>
           {% endif %}

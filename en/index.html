@@ -1,6 +1,7 @@
 ---
 title: JS Park - Front-End Developer & Designer
 layout: default
+menu_title: about
 lang: en
 korean_url: ko
 ---
@@ -72,7 +73,7 @@ korean_url: ko
         <li>
           {{ publication.title }}<br/>
           <small class="affiliation indented">
-            <a href="{{ publication.link }}">{{ publication.description }}</a>
+            <a href="{{ publication.link }}" target="_blank">{{ publication.description }}</a>
           </small>
         </li>
       {% endfor %}
@@ -108,7 +109,7 @@ korean_url: ko
             {% if m.images and m.images.size > 0 %}
               <div class="indented">
                 {% for image in m.images %}
-                  <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}} target="_blank"><img class="thumbnail {{m.image_orientation}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+                  <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}} target="_blank"><img class="thumbnail {{m.image_orientation}}" alt="{{image.alt}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
                 {% endfor %}
               </div>
             {% endif %}
@@ -142,7 +143,7 @@ korean_url: ko
           {% if m.images and m.images.size > 0 %}
             <div class="indented">
               {% for image in m.images %}
-                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}"><img class="thumbnail" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image}}" /></a>
+                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
               {% endfor %}
             </div>
           {% endif %}
