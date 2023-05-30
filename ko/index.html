@@ -112,7 +112,7 @@ english_url: en
             {% if m.images and m.images.size > 0 %}
               <div class="indented">
                 {% for image in m.images %}
-                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
+                <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail {{m.image_orientation}}" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
                 {% endfor %}
               </div>
             {% endif %}
@@ -146,7 +146,7 @@ english_url: en
           {% if m.images and m.images.size > 0 %}
             <li class="indented">
               {% for image in m.images %}
-              <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
+              <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail {{m.image_orientation}}" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
               {% endfor %}
             </li>
           {% endif %}
