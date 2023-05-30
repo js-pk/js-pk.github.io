@@ -125,11 +125,11 @@ english_url: en
       {% endif %}
       <ul class="indented">
         {% for side_project in section.side_projects %}
-          <div class="buttons-container">
+          <li class="buttons-container">
             {% for tag in side_project.tags %}
               <button class="tag" onclick="onClickTagButton(this);">{{ tag }}</button>
             {% endfor %}
-          </div>
+          </li>
           <li class="description indented">{{ side_project.description_ko }}</li>
           {% assign more = side_project.more %}
           {% for m in more %}
@@ -144,11 +144,11 @@ english_url: en
             </li>
             {% endif %}
           {% if m.images and m.images.size > 0 %}
-            <div class="indented">
+            <li class="indented">
               {% for image in m.images %}
               <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
               {% endfor %}
-            </div>
+            </li>
           {% endif %}
         {% endfor %}
       {% endfor %}

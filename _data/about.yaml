@@ -358,7 +358,10 @@ projects:
         description_ko: "React Native를 기반으로 swipeable tab view 라이브러리를 제작했습니다."
         more:
           - text: ""
-            images: ["about/swipeable_tab_view.gif"]
+            images: 
+              - path: "about/swipeable_tab_view.gif"
+                alt: "Animated gif of swipeable tab view"
+                alt_ko: "Swipeable tab view의 동작을 보여주는 영상" 
             image_orientation: "portrait"
       - major_tags: [code, design]
         tags: [APP_DEVELOPMENT, UI/UX, JavaScript, React, React_Native]
@@ -410,7 +413,7 @@ projects:
             - path: "about/visual_voyage_02.jpg"
               alt: "Personal artwork page of the site"
               alt_ko: "개인 작업 페이지"
-            - paht: about/visual_voyage_03.jpg"
+            - path: about/visual_voyage_03.jpg"
               alt: "Personal artwork page of the site"
               alt_ko: "개인 작업 페이지"
       - major_tags: [code, design]

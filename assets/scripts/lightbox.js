@@ -43,28 +43,31 @@ function is_vimeolink(url,el) {
     xmlhttp.send();
 }
 
-function closeGallary() {
+function closeGallery() {
   this.innerHTML = '';
   document.getElementById('lightbox').style.display = 'none';
   
   //set window scrollable
-  document.body.style.position = 'static'
-  document.body.style.top = '0'
-  window.scrollTo(0, this.windowScrollY)
+  document.body.style.position = 'static';
+  document.body.style.top = '0';
+  window.scrollTo(0, this.windowScrollY);
 }
 
 function setGallery(el) {
   //set window fixed
-  this.windowScrollY = window.scrollY
-  document.body.style.position = 'fixed'
-  document.body.style.top = `-${this.windowScrollY}px`
+  if (window.scrollY && window.scrollY != 0) {
+    this.windowScrollY = window.scrollY;
+    document.body.style.position = 'fixed'
+    document.body.style.top = `-${this.windowScrollY}px`
+  }
   
-    var elements = document.body.querySelectorAll(".gallery");
-    elements.forEach(element => {
+  var elements = document.body.querySelectorAll(".gallery");
+  elements.forEach(element => {
         element.classList.remove('gallery');
   });
-  if(el.closest('ul, p')) {
-    var link_elements = el.closest('ul, p').querySelectorAll("a[class*='lightbox-']");
+
+  if(el.closest('li')) {
+    var link_elements = el.closest('li').querySelectorAll("a[class*='lightbox-']");
     link_elements.forEach(link_element => {
       link_element.classList.remove('current');
     });
@@ -98,23 +101,26 @@ function setGallery(el) {
       gallery_elements[nextkey].click();
     })
     .on('swipeDown', function(e) {
-      closeGallary();
+      closeGallery();
     })
-    window.addEventListener('keydown', function(e) {
+
+    window.addEventListener('keydown', (e) => {
       if (e.key == 'ArrowLeft') {
-        gallery_elements[prevkey].click();
+        document.querySelectorAll('a.gallery')[prevkey].click();
       } else if (e.key == 'ArrowRight') {
-        gallery_elements[nextkey].click();
+        document.querySelectorAll('a.gallery')[nextkey].click();
       } else if (e.key == 'Escape') {
-        closeGallary();
+        closeGallery();
       }
-    })
+    }, {once : true})
+
     document.getElementById('next').addEventListener("click", function() {
       gallery_elements[nextkey].click();
     });
     document.getElementById('prev').addEventListener("click", function() {
       gallery_elements[prevkey].click();
     });
+
   }
 }
 
@@ -130,13 +136,13 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         var url = element.getAttribute('href');
         if(url) {
-            if(url.indexOf('vimeo') !== -1 && !element.classList.contains('no-lightbox')) {
-                is_vimeolink(url,element);
-            }
-            if(is_youtubelink(url) && !element.classList.contains('no-lightbox')) {
-                element.classList.add('lightbox-youtube');
-                element.setAttribute('data-id',is_youtubelink(url));
-            }
+            // if(url.indexOf('vimeo') !== -1 && !element.classList.contains('no-lightbox')) {
+            //     is_vimeolink(url,element);
+            // }
+            // if(is_youtubelink(url) && !element.classList.contains('no-lightbox')) {
+            //     element.classList.add('lightbox-youtube');
+            //     element.setAttribute('data-id',is_youtubelink(url));
+            // }
             if(is_imagelink(url) && !element.classList.contains('no-lightbox')) {
                 element.classList.add('lightbox-image');
                 var href = element.getAttribute('href');
@@ -151,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
     //remove the clicked lightbox
     document.getElementById('lightbox').addEventListener("click", function(event) {
         if(event.target.id != 'next' && event.target.id != 'prev'){
-            closeGallary();
+            closeGallery();
         }
     });
     
