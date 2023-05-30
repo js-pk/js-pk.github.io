@@ -48,7 +48,11 @@ english_url: en
         <li>
           {{ experience.title_ko }}<br/>
           <small class="affiliation indented">
+            {% if experience.link and experience.link != "" %}
             <a href="{{ experience.link }}" target="_blank">{{ experience.place_ko }}</a>
+            {% else %}
+            {{ experience.place }}
+            {% endif %}
             {{ experience.period }}</small>
         </li>
       {% endfor %}

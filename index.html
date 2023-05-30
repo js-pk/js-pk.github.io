@@ -48,7 +48,11 @@ korean_url: ko
         <li>
           {{ experience.title }}<br/>
           <small class="affiliation indented">
+            {% if experience.link and experience.link != "" %}
             <a href="{{ experience.link }}" target="_blank">{{ experience.place }}</a>
+            {% else %}
+            {{ experience.place }}
+            {% endif %}
             {{ experience.period }}</small>
         </li>
       {% endfor %}
