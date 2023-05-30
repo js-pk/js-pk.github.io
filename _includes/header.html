@@ -44,12 +44,12 @@
     {%- if page.lang == 'en' and page.korean_url and page.korean_url != '' -%}
       <div class="internationalization">
         <a href="/{{ page.korean_url }}">한국어로 이 페이지 보기</a>
-        <button onclick="hideInternationalization(this)"><img src="/assets/images/close.svg"/></button>
+        <button title="Hide Internationlization" onclick="hideInternationalization(this)"><img alt="close" src="/assets/images/close.svg"/></button>
       </div>
     {% elsif page.lang == 'ko' and page.english_url and page.english_url != '' %}
       <div class="internationalization">
         <a href="/{{ page.english_url }}">Read this page in English</a>
-        <button onclick="hideInternationalization(this)"><img src="/assets/images/close.svg"/></button>
+        <button title="Hide Internationlization" onclick="hideInternationalization(this)"><img alt="close" src="/assets/images/close.svg"/></button>
       </div>
     {% endif %}
 </header>
