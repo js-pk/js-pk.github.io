@@ -27,7 +27,7 @@ url: "https://jspk.site" # the base hostname & protocol for your site, e.g. http
 # jekyll-seo-tag plugin
 
 description: >- # this means to ignore newlines until "baseurl:"
-  JS Park - Front-End Developer & Designer
+  Front-End Developer & Designer
 tagline: "JS Park - Front-End Developer & Designer"
 author: JS Park
 twitter:

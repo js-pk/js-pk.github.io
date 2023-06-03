@@ -64,7 +64,7 @@
 #lightbox.gallery #prev, #lightbox.gallery #next {display: block;}
 #lightbox #prev {left: 15px;}
 #lightbox #next {right: 15px;}
-#lightbox #close {height: 40px; width: 40px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 15px; top: 15px;}
+#lightbox #close {height: 40px; width: 40px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 15px; top: 15px; background: transparent;}
 #lightbox #close:after, #lightbox #close:before {position: absolute; margin-top: 22px; margin-left: 14px; content: ""; height: 3px; background: rgba(255,255,255,0.8); width: 23px;
 -webkit-transform-origin: 50% 50%;
 -moz-transform-origin: 50% 50%;
