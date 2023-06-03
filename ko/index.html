@@ -110,11 +110,11 @@ english_url: en
             </li>
             {% endif %}
             {% if m.images and m.images.size > 0 %}
-              <div class="indented">
+              <li class="indented">
                 {% for image in m.images %}
                 <a href="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}"><img class="thumbnail {{m.image_orientation}}" alt="{{image.alt_ko}}" src="https://d15bnaqqea8wir.cloudfront.net/images/{{image.path}}" /></a>
                 {% endfor %}
-              </div>
+              </li>
             {% endif %}
           {% endfor %}
         {% endfor %}

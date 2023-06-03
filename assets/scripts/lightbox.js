@@ -71,6 +71,7 @@ function setGallery(el) {
     link_elements.forEach(link_element => {
       link_element.classList.remove('current');
     });
+
     link_elements.forEach(link_element => {
       if(el.getAttribute('href') == link_element.getAttribute('href')) {
         link_element.classList.add('current');
