@@ -433,7 +433,7 @@ projects:
               - path: "about/youtube_next_03.jpg"
                 alt: "More information view of the project"
                 alt_ko: "프로젝트의 더보기 화면"
-            link: "youtube.jspk.site"
+            link: "http://youtube.jspk.site"
       - major_tags: [code, design]
         tags: [EDITORIAL_DESIGN, GRAPHIC_DESIGN, MEDIA_ART, UI/UX]
         description: "Created various editorial, graphics and media art pieces during my time at university."
