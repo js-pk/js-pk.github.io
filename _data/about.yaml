@@ -8,12 +8,18 @@ description: "Hello! Please call me JS. I worked at a tech company as a develope
 description_ko: "디자인하고 개발하는 박정수 입니다. IT 업계에서 4년동안 일해왔습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 실험적인 프로토타이핑부터 웹/모바일 어플리케이션의 개발 및 설계, 그래픽 소프트웨어 자동화 시스템 구축, 기업 포트폴리오 웹사이트 제작 등 여러 분야의 일을 넘나들며 해왔습니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업을 진행 중 입니다. 멋진 비주얼과 도전적인 기능을 담은 웹사이트가 필요하시다면 연락주세요. 혹은 무엇이든 코딩과 디자인 사이의 일이라면 환영입니다! 어떤 작업이 가능할지 함께 이야기를 나눠봅시다."
 
 experiences:
+  - title: "Front-End Developer"
+    title_ko: "프론트엔드 개발자"
+    place: "Bookipi"
+    place_ko: "부키피"
+    link: "https://bookipi.com"
+    period: "(2023-PRESENT)"
   - title: "Member of Web Experiement Group"
     title_ko: "웹/미디어아트 그룹 멤버"
     place: "HHHA - hejhellohalloannyeong"
     place_ko: "HHHA - hejhellohalloannyeong"
     link: "https://www.instagram.com/hejhellohalloannyeong/"
-    period: "(2021-PRESENT)"
+    period: "(2021-2023)"
   - title: "Front-End Developer & UI/UX Designer"
     title_ko: "프론트엔드 개발자 & UI/UX 디자이너"
     place: "Polle Inc."
@@ -124,6 +130,15 @@ projects:
             link: "https://apps.apple.com/kr/app/뽈레-polle/id1025468765"
 
     side_projects:
+      - major_tags: [code]
+        tags: [WEB_DEVELOPMENT, JavaScript, Node.js, Express.js, PIXI.js, MindAR]
+        description: "Developed web based game application for the exhibition &lt;Project Hashtag 2023&gt;(lab B) in the National Museum of Modern and Contemporary Art, Korea."
+        description_ko: "국립현대미술관에서 전시한 &lt;프로젝트 해시태그 2023&gt;(랩삐)를 위한 웹 기반 게임 어플리케이션을 제작했습니다."
+        more:
+          - text: ""
+            link_text: "About the Exhibition"
+            link_text_ko: "전시 소개"
+            link: "https://www.mmca.go.kr/exhibitions/exhibitionsDetail.do?exhFlag=1"
       - major_tags: [code, design]
         tags: [MEDIA_ART, ARDUINO, WebGL, JavaScript]
         description: "Participated in the exhibition &lt;The Post Modern Child&gt; at the Museum of Contemporary Art Busan as a member of web experiment group HHHA."

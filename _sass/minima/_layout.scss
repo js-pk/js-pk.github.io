@@ -326,4 +326,8 @@
       @include relative-font-size(1.125);
     }
   }
+
+  p {
+    white-space:pre-wrap;
+  }
 }
