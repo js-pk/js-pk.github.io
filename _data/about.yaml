@@ -3,9 +3,8 @@ name: "JS Park"
 name_ko: "박정수"
 job_title: "Front-End Developer & Designer"
 job_title_ko: "프론트엔드 개발자 & 디자이너"
-description: "Hello! Please call me JS. I worked at a tech company as a developer & designer for 6 years. My work varies from modern front-end development to UI/UX, graphics and creative coding. I did rapid prototyping in both design and code, architected and maintained web applications, implement and maintained design system, build graphics automation process and more. I also did various media art projects on the side, focusing on experimental web features and interactions.
-"
-description_ko: "디자인하고 개발하는 박정수 입니다. IT 업계에서 6년동안 일해왔습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 실험적인 프로토타이핑부터 웹/모바일 어플리케이션의 개발 및 설계, 디자인 시스템 구현 및 유지보수, 그래픽 소프트웨어 자동화 시스템 구축, 기업 포트폴리오 웹사이트 제작 등 여러 분야의 일을 넘나들며 해왔습니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업을 진행 중 입니다."
+description: "Hello! Please call me JS. I work at Bookipi as a front-end developer. I am currently maintaining our design system, which is used by over 70 members of the development team. I also handle regular front-end development tasks, implementing major features and flows for our accounting products with a total of 80k paid users. My work ranges from modern front-end development to UI/UX, graphics and creative coding. On the side, I've also worked on various media art projects, focusing on experimental web features and interactions."
+description_ko: "디자인하고 개발하는 박정수 입니다. Bookipi에서 70명 규모의 개발팀을 위한 디자인시스템 관리 및 8만명의 유료 사용자를 가진 회계 서비스를 위한 기능 개발을 하고 있습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업에 관심이 있습니다."
 
 experiences:
   - title: "Front-End Developer"
