@@ -76,8 +76,8 @@ projects:
     works:
       - major_tags: [code, design]
         tags: [DESIGN_SYSTEM, WEB_DEVELOPMENT, APP_DEVELOPMENT, Figma, JavaScript, React, React Native, Next.js]
-        description: "Managing and building internal design system. Used by a 70-person development team to build web and mobile applications with about 50k paid users."
-        description_ko: "사내 디자인 시스템을 구축 및 관리 중입니다. 70명 규모의 개발팀이 약 5만명 규모의 유료 사융자를 보유한 웹 및 모바일 어플리케이션을 개발하는데 사용되고 있습니다."
+        description: "Managing and building internal design system. Used by a 70-person development team to build web and mobile applications with about 80k paid users."
+        description_ko: "사내 디자인 시스템을 구축 및 관리 중입니다. 70명 규모의 개발팀이 약 8만명 규모의 유료 사융자를 보유한 웹 및 모바일 어플리케이션을 개발하는데 사용되고 있습니다."
       - major_tags: [code]
         tags: [WEB_DEVELOPMENT, APP_DEVELOPMENT, JavaScript, React, React Native]
         description: "Developing new web and mobile features for the main product used by small business owners. Implemented various features such as search and filtering system, statistics dashboard, invoicing and proposal creation flow."
