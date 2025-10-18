@@ -3,9 +3,9 @@ name: "JS Park"
 name_ko: "박정수"
 job_title: "Front-End Developer & Designer"
 job_title_ko: "프론트엔드 개발자 & 디자이너"
-description: "Hello! Please call me JS. I worked at a tech company as a developer & designer for 4 years. My work varies from modern front-end development to UI/UX, graphics and creative coding. I did rapid prototyping in both design and code, architected and maintained web applications, build graphics automation process and more. I also did various media art projects on the side, focusing on experimental web features and interactions. Originally based in Seoul, I am now looking to relocate for new adventure. Please check below for more information ↓
+description: "Hello! Please call me JS. I worked at a tech company as a developer & designer for 6 years. My work varies from modern front-end development to UI/UX, graphics and creative coding. I did rapid prototyping in both design and code, architected and maintained web applications, implement and maintained design system, build graphics automation process and more. I also did various media art projects on the side, focusing on experimental web features and interactions.
 "
-description_ko: "디자인하고 개발하는 박정수 입니다. IT 업계에서 4년동안 일해왔습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 실험적인 프로토타이핑부터 웹/모바일 어플리케이션의 개발 및 설계, 그래픽 소프트웨어 자동화 시스템 구축, 기업 포트폴리오 웹사이트 제작 등 여러 분야의 일을 넘나들며 해왔습니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업을 진행 중 입니다. 멋진 비주얼과 도전적인 기능을 담은 웹사이트가 필요하시다면 연락주세요. 혹은 무엇이든 코딩과 디자인 사이의 일이라면 환영입니다! 어떤 작업이 가능할지 함께 이야기를 나눠봅시다."
+description_ko: "디자인하고 개발하는 박정수 입니다. IT 업계에서 6년동안 일해왔습니다. 모던 프론트엔드 개발부터 UI/UX, 그래픽 디자인, 크리에이티브 코딩까지 다양한 작업을 합니다. 실험적인 프로토타이핑부터 웹/모바일 어플리케이션의 개발 및 설계, 디자인 시스템 구현 및 유지보수, 그래픽 소프트웨어 자동화 시스템 구축, 기업 포트폴리오 웹사이트 제작 등 여러 분야의 일을 넘나들며 해왔습니다. 한켠으로는 웹을 바탕으로 한 인터랙티브 미디어 아트 작업을 진행 중 입니다."
 
 experiences:
   - title: "Front-End Developer"
@@ -72,6 +72,17 @@ publications:
 
 
 projects:
+  - year: 2024-2025
+    works:
+      - major_tags: [code, design]
+        tags: [DESIGN_SYSTEM, WEB_DEVELOPMENT, APP_DEVELOPMENT, Figma, JavaScript, React, React Native, Next.js]
+        description: "Managing and building internal design system. Used by a 70-person development team to build web and mobile applications with about 50k paid users."
+        description_ko: "사내 디자인 시스템을 구축 및 관리 중입니다. 70명 규모의 개발팀이 약 5만명 규모의 유료 사융자를 보유한 웹 및 모바일 어플리케이션을 개발하는데 사용되고 있습니다."
+      - major_tags: [code]
+        tags: [WEB_DEVELOPMENT, APP_DEVELOPMENT, JavaScript, React, React Native]
+        description: "Developing new web and mobile features for the main product used by small business owners. Implemented various features such as search and filtering system, statistics dashboard, invoicing and proposal creation flow."
+        description_ko: "소규모 자영업자를 대상으로 하는 인보이싱 및 회계 서비스의 로드맵 프로젝트 개발을 맡았습니다. 검색 및 필터링 시스템, 통계 대시보드, 청구서 및 제안서 제작 플로우 등 다양한 기능을 구현했습니다."
+
   - year: 2022-2023
 
     works:
