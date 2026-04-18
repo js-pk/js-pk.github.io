@@ -3,6 +3,11 @@ layout: post
 title: "How far we've come"
 date: 2026-04-18 12:20:00 +0900
 categories: 
+image:
+  path: /assets/images/posts/how-far-weve-come.jpg
+  height: 250
+  width: 250
+  alt: "Matchbox Twenty - How Far We've Come album cover"
 ---
 
 Sometimes I resent how I ended up living in the 21st century.

@@ -3,6 +3,11 @@ layout: post
 title: "Math and Physics"
 date: 2026-04-18 12:39:00 +0900
 categories: 
+image:
+  path: /assets/images/posts/math-and-physics.jpg
+  height: 500
+  width: 325
+  alt: "The Theoretical Minimum by Leonard Susskind and George Hrabovsky - book cover"
 ---
 
 Somehow I ended up at art school, majoring in fine art.

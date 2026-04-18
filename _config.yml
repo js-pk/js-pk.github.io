@@ -31,7 +31,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 tagline: "JS Park - Front-End Developer & Designer"
 author: JS Park
 twitter:
-  card: summary
+  card: summary_large_image
 logo: 
 social:
   name: JS Park

@@ -19,6 +19,14 @@ layout: default
     {{ content }}
   </div>
 
+  {%- if page.image and page.image.path != "/assets/images/thumbnail.jpg" -%}
+    <figure class="post-image">
+      <img src="{{ page.image.path | relative_url }}" alt="{{ page.image.alt }}"
+        {%- if page.image.width %} width="{{ page.image.width }}"{% endif -%}
+        {%- if page.image.height %} height="{{ page.image.height }}"{% endif -%} />
+    </figure>
+  {%- endif -%}
+
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}
